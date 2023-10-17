@@ -1,0 +1,46 @@
+Systems Research Institute, Polish Academy of Sciences
+Dominika Tkaczyk
+ICM, University of Warsaw
+New Methods for Metadata Extraction
+from Scientiﬁc Literature
+Ph.D. Thesis
+Supervisor: Professor Marek Niezg´odka, PhD, DSc
+Auxiliary supervisor: �Lukasz Bolikowski, PhD
+ICM, University of Warsaw
+November 2015
+arXiv:1710.10201v1  [cs.DL]  27 Oct 2017
+Abstract
+Spreading the ideas and announcing new discoveries and ﬁndings in the scientiﬁc world
+is typically realized by publishing and reading scientiﬁc literature. Within the past few
+decades we have witnessed digital revolution, which moved scholarly communication to
+electronic media and also resulted in a substantial increase in its volume. Nowadays keep-
+ing track with the latest scientiﬁc achievements poses a major challenge for the researchers.
+Scientiﬁc information overload is a severe problem that slows down scholarly communica-
+tion and knowledge propagation across the academia.
+Modern research infrastructures facilitate studying scientiﬁc literature by providing
+intelligent search tools, proposing similar and related documents, building and visualizing
+interactive citation and author networks, assessing the quality and impact of the articles
+using citation-based statistics, and so on. In order to provide such high quality services
+the system requires the access not only to the text content of stored documents, but also
+to their machine-readable metadata. Since in practice good quality metadata is not always
+available, there is a strong demand for a reliable automatic method of extracting machine-
+readable metadata directly from source documents.
+Our research addresses these problems by proposing an automatic, accurate and ﬂexible
+algorithm for extracting wide range of metadata directly from scientiﬁc articles in born-
+digital form. Extracted information includes basic document metadata, structured full
+text and bibliography section.
+Designed as a universal solution, proposed algorithm is able to handle a vast variety
+of publication layouts with high precision and thus is well-suited for analyzing heteroge-
+neous document collections.
+This was achieved by employing supervised and unsuper-
+vised machine-learning algorithms trained on large, diverse datasets. The evaluation we
+conducted showed good performance of proposed metadata extraction algorithm.
+The
+comparison with other similar solutions also proved our algorithm performs better than
+competition for most metadata types.
+Proposed method is a reliable and accurate solution to the problem of extracting the
+metadata from documents. It allows modern research infrastructures to provide intelligent
+tools and services supporting the process of consuming the growing volume of scientiﬁc
+literature by the readers, which results in facilitating the communication among the sci-
+entists and the overall improvement of the knowledge propagation and the quality of the
+research in the scientiﬁc world.
