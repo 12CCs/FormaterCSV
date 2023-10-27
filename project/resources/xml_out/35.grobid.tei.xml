@@ -1,0 +1,1717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_vrAZC53">An Intelligent Solution for Automatic Garment Measurement Using Image Recognition Technologies</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>MDPI AG</publisher>
+				<availability status="unknown"><p>Copyright MDPI AG</p>
+				</availability>
+				<date type="published" when="2022-04-28">28 April 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,35.33,174.67,150.25,9.34"><forename type="first">Agne</forename><surname>Paulauskaite-Taraseviciene</surname></persName>
+							<email>agne.paulauskaite-taraseviciene@ktu.lt</email>
+							<idno type="ORCID">0000-0002-8787-3343</idno>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>1</label> Faculty of Infromatics, Kaunas University of Technology, Studentu 50, 51368 Kaunas, Lithuania;</note>
+								<orgName type="department">Faculty of Infromatics</orgName>
+								<orgName type="institution">Kaunas University of Technology</orgName>
+								<address>
+									<addrLine>Studentu 50</addrLine>
+									<postCode>51368</postCode>
+									<settlement>Kaunas</settlement>
+									<country key="LT">Lithuania</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,212.72,174.67,81.62,9.34"><forename type="first">Eimantas</forename><surname>Noreika</surname></persName>
+							<email>eimantas.noreika@ktu.edu</email>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>1</label> Faculty of Infromatics, Kaunas University of Technology, Studentu 50, 51368 Kaunas, Lithuania;</note>
+								<orgName type="department">Faculty of Infromatics</orgName>
+								<orgName type="institution">Kaunas University of Technology</orgName>
+								<address>
+									<addrLine>Studentu 50</addrLine>
+									<postCode>51368</postCode>
+									<settlement>Kaunas</settlement>
+									<country key="LT">Lithuania</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,306.10,174.67,85.50,9.34"><forename type="first">Ramunas</forename><surname>Purtokas</surname></persName>
+							<email>ramunas.purtokas@ktu.edu</email>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>1</label> Faculty of Infromatics, Kaunas University of Technology, Studentu 50, 51368 Kaunas, Lithuania;</note>
+								<orgName type="department">Faculty of Infromatics</orgName>
+								<orgName type="institution">Kaunas University of Technology</orgName>
+								<address>
+									<addrLine>Studentu 50</addrLine>
+									<postCode>51368</postCode>
+									<settlement>Kaunas</settlement>
+									<country key="LT">Lithuania</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,403.35,174.67,129.78,9.34"><forename type="first">Ingrida</forename><surname>Lagzdinyte-Budnike</surname></persName>
+							<email>ingrida.lagzdinyte-budnike@ktu.lt</email>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>1</label> Faculty of Infromatics, Kaunas University of Technology, Studentu 50, 51368 Kaunas, Lithuania;</note>
+								<orgName type="department">Faculty of Infromatics</orgName>
+								<orgName type="institution">Kaunas University of Technology</orgName>
+								<address>
+									<addrLine>Studentu 50</addrLine>
+									<postCode>51368</postCode>
+									<settlement>Kaunas</settlement>
+									<country key="LT">Lithuania</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,35.33,187.22,93.44,9.34"><forename type="first">Vytautas</forename><surname>Daniulaitis</surname></persName>
+							<email>vytautas.daniulaitis@ktu.lt</email>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>1</label> Faculty of Infromatics, Kaunas University of Technology, Studentu 50, 51368 Kaunas, Lithuania;</note>
+								<orgName type="department">Faculty of Infromatics</orgName>
+								<orgName type="institution">Kaunas University of Technology</orgName>
+								<address>
+									<addrLine>Studentu 50</addrLine>
+									<postCode>51368</postCode>
+									<settlement>Kaunas</settlement>
+									<country key="LT">Lithuania</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,157.68,187.22,131.96,9.34"><forename type="first">Ruta</forename><surname>Salickaite-Zukauskiene</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>2</label> Noselfish MB, Slaito 4, 59204 Birstonas, Lithuania;</note>
+								<orgName type="department">Noselfish MB</orgName>
+								<address>
+									<addrLine>Slaito 4</addrLine>
+									<postCode>59204</postCode>
+									<settlement>Birstonas</settlement>
+									<country key="LT">Lithuania</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Fumagalli and Simone Arena</note>
+								<orgName type="institution">Fumagalli and Simone Arena</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_c6p359e">An Intelligent Solution for Automatic Garment Measurement Using Image Recognition Technologies</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main" xml:id="_sxZTy76">Applied Sciences</title>
+						<title level="j" type="abbrev">Applied Sciences</title>
+						<idno type="eISSN">2076-3417</idno>
+						<imprint>
+							<publisher>MDPI AG</publisher>
+							<biblScope unit="volume">12</biblScope>
+							<biblScope unit="issue">9</biblScope>
+							<biblScope unit="page">4470</biblScope>
+							<date type="published" when="2022-04-28">28 April 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">44AC0D51D3A6866FB0A0E08B21CB7AC8</idno>
+					<idno type="DOI">10.3390/app12094470</idno>
+					<note type="submission">Received: 25 March 2022 Accepted: 26 April 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.3" ident="GROBID" when="2023-10-27T18:47+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_uEnDM7p">segmentation</term>
+					<term xml:id="_dM56cCn">UNet</term>
+					<term xml:id="_ACtayE3">garment size detection</term>
+					<term xml:id="_4eAZnWb">edge detection</term>
+					<term xml:id="_AAxmA9c">key points</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_MeGxM3f"><p xml:id="_s7VMmRj"><s xml:id="_U5Swba7" coords="1,205.35,274.93,353.93,8.63;1,166.39,287.91,314.72,8.63">Global digitization trends and the application of high technology in the garment market are still too slow to integrate, despite the increasing demand for automated solutions.</s><s xml:id="_DH7MQK3" coords="1,483.81,287.91,75.46,8.63;1,166.39,300.88,392.88,8.63;1,166.39,313.85,91.21,8.63">The main challenge is related to the extraction of garment information-general clothing descriptions and automatic dimensional extraction.</s><s xml:id="_WXd775G" coords="1,260.36,313.85,298.91,8.63;1,166.13,326.82,393.15,8.63;1,166.39,339.79,41.49,8.63">In this paper, we propose the garment measurement solution based on image processing technologies, which is divided into two phases, garment segmentation and key points extraction.</s><s xml:id="_t945YWr" coords="1,210.65,339.79,245.80,8.63">UNet as a backbone network has been used for mask retrieval.</s><s xml:id="_BqBcFee" coords="1,459.23,339.79,100.05,8.63;1,166.39,352.76,392.88,8.63;1,166.39,365.73,296.73,8.63">Separate algorithms have been developed to identify both general and specific garment key points from which the dimensions of the garment can be calculated by determining the distances between them.</s><s xml:id="_QNjnMu2" coords="1,465.80,365.73,93.47,8.63;1,166.39,378.71,392.88,8.63;1,166.39,391.68,215.64,8.63">Using this approach, we have resulted in an average 1.27 cm measurement error for the prediction of the basic measurements of blazers, 0.747 cm for dresses and 1.012 cm for skirts.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_PjatDU6">Introduction</head><p xml:id="_Y95D7gN"><s xml:id="_UkUB6H4" coords="1,187.65,481.57,371.82,9.58;1,166.12,494.12,393.16,9.58;1,166.39,506.67,267.88,9.58">One of the most powerful and widely used types of artificial intelligence is computer vision, which aims to mimic some of the complexity of the human visual system and enable computers to detect and identify objects in images and videos.</s><s xml:id="_jpZx82v" coords="1,437.31,506.67,121.96,9.58;1,166.39,519.23,392.88,9.58;1,166.39,531.78,392.88,9.58;1,166.39,544.33,292.25,9.58">Computer vision techniques cover an increasing number of applications and engineering aspects of computing related to image recognition, including scientific work proposing innovative algorithms or solutions for commercial, industrial, military and biomedical applications.</s><s xml:id="_s3cSjpD" coords="1,463.15,544.33,96.12,9.58;1,166.39,556.89,394.63,9.58">The increasing use of computer vision in everyday life contributes to the efficiency of various aspects of the field.</s><s xml:id="_ffJgvDz" coords="1,166.01,569.44,393.27,9.58;1,166.39,581.99,392.88,9.58;1,166.39,594.55,392.88,9.58;1,166.39,607.10,83.07,9.58">Although the use of these technologies allows solving many complex tasks (automated object detection and identification, tracking), the detection of defects and anomalies is one of the most valuable investigations in medicine <ref type="bibr" coords="1,382.08,594.55,10.72,9.58" target="#b0">[1]</ref>, bio-medicine <ref type="bibr" coords="1,460.67,594.55,10.72,9.58" target="#b1">[2]</ref>, manufacturing <ref type="bibr" coords="1,547.53,594.55,11.75,9.58" target="#b2">[3]</ref> and agriculture <ref type="bibr" coords="1,235.52,607.10,10.46,9.58" target="#b3">[4]</ref>.</s><s xml:id="_hzG8PFA" coords="1,252.56,607.10,306.72,9.58;1,166.39,619.65,392.88,9.58;1,166.39,632.20,392.88,9.58;1,166.39,644.76,394.13,9.58;1,166.10,657.31,286.73,9.58">For example, image recognition techniques based on deep learning can be used to enable advanced disease control in agriculture <ref type="bibr" coords="1,417.69,619.65,7.97,9.58" target="#b4">[5]</ref><ref type="bibr" coords="1,425.65,619.65,3.98,9.58" target="#b5">[6]</ref><ref type="bibr" coords="1,429.64,619.65,7.97,9.58" target="#b6">[7]</ref>, to identify product defects and increase the quality control in manufacturing <ref type="bibr" coords="1,390.32,632.20,10.71,9.58" target="#b7">[8]</ref>, automated assessment, prediction and assistance in medicine <ref type="bibr" coords="1,284.40,644.76,11.30,9.58" target="#b8">[9,</ref><ref type="bibr" coords="1,295.71,644.76,11.30,9.58" target="#b9">10]</ref>, increase the success rate of bio-medicine procedures <ref type="bibr" coords="1,541.58,644.76,15.16,9.58" target="#b10">[11]</ref>, provide intelligent road safety solutions <ref type="bibr" coords="1,344.42,657.31,16.60,9.58" target="#b11">[12,</ref><ref type="bibr" coords="1,361.02,657.31,12.45,9.58" target="#b12">13]</ref> and many others.</s></p><p xml:id="_UdyxUuh"><s xml:id="_W5QsSA8" coords="1,187.65,669.86,371.62,9.58;1,166.39,682.42,393.27,9.58;1,166.10,694.97,140.03,9.58">Online shopping is the most popular online activity worldwide, and the key value of intelligent image recognition solutions for e-commerce lies in the ability to identify products quickly and accurately.</s><s xml:id="_Q6KMM3F" coords="1,309.19,694.97,250.09,9.58;1,166.39,707.52,392.88,9.58;1,166.39,720.07,393.27,9.58;1,166.39,732.63,141.25,9.58">However, global digitization trends and the application of high technology in the garment market are still too slow to integrate, despite the increasing demand for automated solutions and the fact that the challenges are quite clear and already discussed in different researches.</s><s xml:id="_yqVKEkh" coords="1,310.63,732.63,248.64,9.58;1,166.39,745.18,392.89,9.58;1,166.39,757.73,394.63,9.58">In principle, the main challenge is related to the extraction of garment information-general clothing descriptions, automatic dimensional extraction and textual information retrieval from the tags (size, brand, fabric composition, etc.).</s><s xml:id="_HrYQzAY" coords="1,166.39,770.29,392.88,9.58;2,166.10,98.05,332.78,9.58">Currently, the accuracy and completeness of the information about garments on sales platforms still relies on a significant amount of manual and tedious work.</s><s xml:id="_qeyhEXD" coords="2,502.87,98.05,56.41,9.58;2,166.39,110.60,392.88,9.58;2,166.39,123.15,86.07,9.58">Measuring a garment is extremely time-consuming and often requires multiple measurements to reduce measurement error.</s><s xml:id="_c6AvPhb" coords="2,255.56,123.15,303.71,9.58;2,166.39,135.71,392.88,9.58;2,166.39,148.26,184.23,9.58">Artificial intelligence (AI) technologies have the potential to meet the demand to adopt the automation technology in this sector by increasing the speed and accuracy of garment measurement <ref type="bibr" coords="2,316.88,148.26,12.66,9.58" target="#b13">[14]</ref><ref type="bibr" coords="2,329.53,148.26,4.22,9.58" target="#b14">[15]</ref><ref type="bibr" coords="2,333.75,148.26,12.66,9.58" target="#b15">[16]</ref>.</s><s xml:id="_ufJ5Tn9" coords="2,353.62,148.26,205.65,9.58;2,166.39,160.81,393.27,9.58;2,166.39,173.37,128.47,9.58">Given CNN's success in a range of domains, the deep learning-based solution has also demonstrated its superiority in performing a variety of garment recognition tasks.</s><s xml:id="_ZFyQ4Fe" coords="2,297.95,173.37,261.33,9.58;2,166.39,185.92,393.08,9.58;2,166.39,198.47,280.76,9.58">The approach based RCNN has been proposed for the shirt attributes recognition task, including the Inception-ResNet V1 model with LSoftmax for images representation and identification of their categories <ref type="bibr" coords="2,428.06,198.47,15.28,9.58" target="#b16">[17]</ref>.</s><s xml:id="_X4GCTMq" coords="2,450.26,198.47,109.01,9.58;2,166.39,211.02,360.30,9.58">The experimental results show an overall labelling rate of 87.77%, a precision of 73.59% and a recall of 83.84%.</s><s xml:id="_Uxey5JY" coords="2,529.67,211.02,29.99,9.58;2,166.39,223.58,392.88,9.58;2,166.39,236.13,67.28,9.58">A fully convolutional network and SP-FEN architecture have been proposed to parse clothing in fashion images.</s><s xml:id="_F8JTjMC" coords="2,236.75,236.13,322.52,9.58;2,166.39,248.68,394.62,9.58">The proposed model has shown accuracy in terms of the overall pixel-wise accuracy and clothes parsing performance (pixel accuracy of 92.67 and MIoU of 48.26) <ref type="bibr" coords="2,542.06,248.68,15.17,9.58" target="#b17">[18]</ref>.</s><s xml:id="_JPvqxqR" coords="2,166.39,261.24,392.88,9.58;2,166.39,273.79,309.56,9.58">However, the main objective is to identify individual garments, which implies a semantic segmentation task by assigning a class label to each pixel of the image.</s></p><p xml:id="_X75xTR9"><s xml:id="_h3v8dAP" coords="2,187.65,286.34,371.62,9.58;2,166.39,298.90,187.30,9.58">A review of relevant research has shown that it is much easier to measure clothes lying down than hanging (e.g., on a mannequin).</s><s xml:id="_pzGk3fp" coords="2,356.78,298.90,202.49,9.58;2,166.39,311.45,372.92,9.58">In <ref type="bibr" coords="2,368.27,298.90,15.15,9.58" target="#b18">[19]</ref>, special equipment to capture images of tiled garments has been proposed which enables automatic garment measurements.</s><s xml:id="_mPykRcm" coords="2,542.42,311.45,16.86,9.58;2,166.39,324.00,394.63,9.58">The shooting device consists of a digital camera, LED light, shooting stand and workbench.</s><s xml:id="_U3BEneK" coords="2,166.01,336.55,393.27,9.58;2,166.39,349.11,159.82,9.58">A garment template is employed to recognize garment types and feature points, which are used to calculate garment sizes.</s><s xml:id="_XHtjqns" coords="2,330.45,349.11,228.83,9.58;2,166.39,361.66,392.88,9.58;2,166.39,373.90,60.10,9.90">Experimental results show that the accuracy of the approach can meet the requirements of the apparel industry since the average relative error is ∼2%.</s><s xml:id="_ZRt2ct2" coords="2,229.59,373.90,209.00,9.90">Tolerable error in the fashion industry is ∼2 cm.</s><s xml:id="_qnn86pA" coords="2,441.69,374.21,117.59,9.58;2,166.39,386.77,392.88,9.58;2,166.39,399.32,28.69,9.58">The authors in <ref type="bibr" coords="2,507.99,374.21,16.60,9.58" target="#b19">[20]</ref> present an idea and apps that allow measuring the lay-down of a garment placed on a marked board.</s><s xml:id="_JJfUz3b" coords="2,198.20,399.32,361.08,9.58;2,166.39,411.87,346.86,9.58">The proposed app then shoots the garment using the top camera form above and automatically captures many of the garment's standard measurement points.</s><s xml:id="_agZuunw" coords="2,517.06,411.87,42.21,9.58;2,166.39,424.42,392.88,9.58;2,166.39,436.98,394.62,9.58">The basic strategy is to first detect key points of interest in the clothing item and then use known measurements from demarcations on the backdrop to infer distances between those points.</s><s xml:id="_ZBmsaGT" coords="2,166.09,449.53,393.19,9.58;2,166.39,462.08,126.07,9.58">To measure lying-down clothes a fuzzy edge-detection algorithm can be used to detect the edge of garment image <ref type="bibr" coords="2,273.20,462.08,15.42,9.58" target="#b20">[21]</ref>.</s><s xml:id="_UFNUFWt" coords="2,296.29,462.08,262.99,9.58;2,166.39,474.64,172.13,9.58">Then a corner-detection algorithm based on Freeman code is invoked to locate the corner points.</s><s xml:id="_dwQDhpj" coords="2,343.74,474.64,215.53,9.58;2,166.39,487.19,392.88,9.58;2,166.39,499.74,94.76,9.58">The experiment results show that the proposed approach can measure t-shirts with the related error from 0.73% to 2.84% depending on the measured points.</s><s xml:id="_YRntqtW" coords="2,265.32,499.74,293.95,9.58;2,166.39,512.30,41.47,9.58">The smallest error has been obtained for the garment length (less than 1%).</s></p><p xml:id="_zjUC7Cj"><s xml:id="_3BSjbjj" coords="2,187.65,524.85,372.01,9.58;2,166.39,537.40,393.18,9.58;2,166.39,549.95,394.54,9.58;2,166.39,562.51,300.79,9.58">Measurement solutions with requirements for a fixed position of the garment may limit their use and application, although the accuracy of such solutions is quite high (up to 0.5 cm error) <ref type="bibr" coords="2,237.01,549.95,15.41,9.58" target="#b21">[22]</ref>, because, under real-world conditions (non-laboratory or industrialoriented), the position of different garments in each image can vary.</s><s xml:id="_5PNYuD5" coords="2,470.27,562.51,89.00,9.58;2,166.12,575.06,393.16,9.58;2,166.39,587.61,39.88,9.58">This means that it is quite complicated to use pre-designed templates to extract the essential dimensions of a garment.</s><s xml:id="_J7UWBUW" coords="2,209.36,587.61,349.92,9.58;2,166.39,600.17,392.88,9.58;2,166.39,612.72,146.78,9.58">Adherence to certain equipment or templates is more semi-automatic solutions that require additional calibration, widespread interruptions from distinct angles and specific positions (mobile apps).</s><s xml:id="_U83WXwg" coords="2,319.36,612.72,239.91,9.58;2,166.39,625.27,285.97,9.58">All this process takes a lot of time and therefore the essential goal of optimizing time by measuring the garment is lost.</s><s xml:id="_QR6Jdgu" coords="2,455.40,625.27,103.87,9.58;2,166.39,637.83,392.88,9.58;2,166.39,650.38,263.92,9.58">How to make automatic garment measurement as versatile and accurate as possible is also one of the most important issues for the autonomous retrieval of garments information.</s><s xml:id="_6X58c94" coords="2,433.42,650.38,125.85,9.58;2,166.39,662.93,392.88,9.58;2,166.39,675.48,392.88,9.58;2,166.39,688.04,251.46,9.58">In this work, we focus on the challenge of automatically measuring the hanging garments (in this particular study, on the mannequin), without being restricted by space, background requirements, shooting distances or additional tags needed for measurements.</s><s xml:id="_au4QX8d" coords="2,424.48,688.04,134.79,9.58;2,166.39,700.59,392.88,9.58;2,166.39,713.14,392.88,9.58;2,166.39,725.70,394.62,9.58;2,166.39,738.25,392.88,9.58;2,166.39,750.80,393.08,9.58;2,166.39,763.35,72.48,9.58">The aim of this research is to create a solution by implementing an automatic clothing segmentation and measuring algorithm that would let us not only separate clothing into different groups but also measure their basic measurements such as distance between shoulders, length of a sleeve, etc. Identifying the main problems and limitations of both objectives-accurate segmentation and measurement-is also an essential task, as it can provide insights and avenues for further research.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_XJtwDHV">Materials and Methods</head><p xml:id="_SWwYtE5"><s xml:id="_hYwjCWb" coords="3,187.65,113.59,371.62,9.58;3,166.39,126.14,43.04,9.58">Initially, in this study, 683 images of clothing were collected including different types of garments.</s><s xml:id="_TD2b4bp" coords="3,212.52,126.14,346.76,9.58;3,166.39,138.70,392.89,9.58;3,166.07,151.25,393.21,9.58;3,166.39,163.80,290.95,9.58">As one of the objectives of this study is to investigate the feasibility of automatic garment sizing with household photographs that can be uploaded to different platforms (e.g., second-hand clothing platforms) photos taken under different conditions and with different mannequins or hanging on a hanger have been included.</s><s xml:id="_xAd2AFZ" coords="3,460.47,163.80,99.00,9.58;3,166.39,176.35,392.88,9.58;3,166.39,188.91,169.47,9.58">There are solutions for overcoming the effects of lighting and occlusion, but they are usually developed for specific groups of objects <ref type="bibr" coords="3,243.52,188.91,16.60,9.58" target="#b11">[12,</ref><ref type="bibr" coords="3,260.12,188.91,12.45,9.58" target="#b22">23]</ref> or noises <ref type="bibr" coords="3,316.78,188.91,15.27,9.58" target="#b23">[24]</ref>.</s></p><p xml:id="_DpY4GWY"><s xml:id="_8yMPQwz" coords="3,187.65,201.46,371.62,9.58;3,166.12,214.01,393.16,9.58;3,166.39,226.57,148.47,9.58">Initial experiments have shown that the distance from the camera to the object is quite an important aspect in the calculation of the size of the garment and can lead to a measurement error of 10 to 15 cm.</s><s xml:id="_MYpnkU9" coords="3,317.96,226.57,241.32,9.58;3,166.39,239.12,361.35,9.58">This problem can be solved by adding a standard-sized object (e.g., a bank card) to the scale, but some requirements arise here as well.</s><s xml:id="_tfkuQut" coords="3,533.08,239.12,26.19,9.58;3,166.39,251.67,394.63,9.58">These include reflections, edge identification problems when the tag blends with the garment, etc.</s><s xml:id="_jXF5C4z" coords="3,166.39,264.23,392.88,9.58;3,166.39,276.78,115.46,9.58">Many problems are caused by wrinkled, ruffled clothes, such as those that are the same colour as the background.</s><s xml:id="_CJKSJC8" coords="3,284.94,276.78,274.34,9.58;3,166.39,289.33,392.88,9.58;3,166.39,301.88,173.77,9.58">Depending on the pose and condition of the garment, and the angle of the camera, difficulties arise, e.g., measuring the width of the sleeves, as they can look much narrower than they really are.</s><s xml:id="_uJgFpQP" coords="3,343.08,301.88,216.19,9.58;3,166.39,314.44,392.88,9.58;3,166.39,326.99,392.88,9.58;3,166.39,339.54,392.88,9.58;3,166.39,352.10,57.24,9.58">In addition, it has been observed that the quality of the photos and the context vary considerably, including differences in shooting and lighting conditions, camera resolutions and clothing shooting angle, the appearance of multiple garments in one photo, redundant objects in the photo, more than 20 different types of clothing, etc.</s><s xml:id="_fPKTce5" coords="3,227.24,352.10,332.03,9.58;3,166.39,364.65,187.10,9.58">Given all these challenges, several iterations of data cleaning were carried out to improve the quality of the dataset.</s><s xml:id="_4dChNkn" coords="3,358.37,364.65,200.90,9.58;3,166.39,376.89,392.88,9.90;3,166.39,389.75,393.08,9.58;3,166.39,402.31,105.63,9.58">First of all, the variety of garments has been reduced to 13 classes according to <ref type="bibr" coords="3,319.13,377.20,15.35,9.58" target="#b24">[25]</ref>, resizing all photos to 224 × 336 resolution retains information about the boundaries of the garment and reduces the resource requirements for size prediction methods.</s><s xml:id="_BuW3zNJ" coords="3,275.05,402.31,284.22,9.58;3,165.98,414.86,318.41,9.58">Finally, in order to have a stratified dataset, 330 images of clothing were selected including the same amount of blazers, skirts and dresses.</s><s xml:id="_FPMKuCu" coords="3,487.48,414.86,71.80,9.58;3,166.39,427.41,379.98,9.58">This dataset has been divided into three parts: 70% for training, 15% for validation and 15% for testing.</s></p><p xml:id="_sdPhdjr"><s xml:id="_wQJGaKW" coords="3,187.65,439.97,371.62,9.58;3,166.39,452.52,393.08,9.58;3,166.39,465.07,257.64,9.58">More advanced exploration of the dataset has revealed that the application of classical methods to the segmentation task has a lot of potential, so it is appropriate to test other algorithms before employing deep learning architectures.</s><s xml:id="_Fp3hCef" coords="3,427.33,465.07,131.94,9.58;3,166.39,477.63,392.88,9.58;3,166.39,490.18,392.88,9.58;3,166.39,502.73,257.74,9.58">The simplest way is therefore to use image processing techniques to extract information about the edges of the garment so that the location of the garment in the image can be determined and the size of the garment can be measured using an additional algorithm.</s><s xml:id="_zzVG94U" coords="3,428.56,502.73,130.71,9.58;3,166.39,515.28,392.88,9.58;3,166.39,527.84,273.44,9.58">The second way is to use the deep learning architecture (e.g., UNet family <ref type="bibr" coords="3,362.42,515.28,16.50,9.58" target="#b25">[26]</ref> model) to create the mask of the garment in the photo that would extract the position of the garment.</s><s xml:id="_J9rN5j6" coords="3,445.25,527.84,114.03,9.58;3,166.39,540.39,392.88,9.58;3,166.10,552.94,236.91,9.58">Then using a classifier to determine the type of garment, pass the collected information to the specific algorithm to perform the final garment measurements prediction.</s><s xml:id="_ZJKB4pP" coords="3,406.91,552.94,152.37,9.58;3,166.39,565.50,392.88,9.58;3,166.39,578.05,392.88,9.58;3,166.39,590.60,67.97,9.58">Instead of a specific algorithm, all essential garment points can be predicted using deep learning models, whose provided output results allow calculating the distances between points and determining garment measurements.</s><s xml:id="_cyhBu7r" coords="3,237.55,590.60,321.72,9.58;3,166.39,603.16,392.88,9.58;3,166.39,615.71,227.79,9.58">However, the identification of the most appropriate solution must focus not only on the accuracy but also on the complexity of implementation, computational resources and robustness to different environments.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1." xml:id="_789CNUt">UNet Model-Based Extraction of Contours of the Garments' Shape</head><p xml:id="_egYF244"><s xml:id="_ZX8tpPj" coords="3,187.65,653.67,372.87,9.58;3,166.39,666.22,392.88,9.58;3,166.39,678.77,392.88,9.58;3,166.39,691.32,58.74,9.58">Various image segmentation algorithms have been developed, but more recently, the success of deep learning models in various vision applications has led to a large number of studies on the development of image segmentation methods using deep learning architectures.</s><s xml:id="_fSD7775" coords="3,228.22,691.32,331.06,9.58;3,166.39,703.88,392.88,9.58;3,166.39,716.43,92.64,9.58">U-Net is a convolution neural network <ref type="bibr" coords="3,400.84,691.32,16.59,9.58" target="#b26">[27]</ref> originally proposed for medical imaging segmentation, but various research has shown its potential for other segmentation tasks as well <ref type="bibr" coords="3,224.82,716.43,12.83,9.58" target="#b27">[28]</ref><ref type="bibr" coords="3,237.65,716.43,4.28,9.58" target="#b28">[29]</ref><ref type="bibr" coords="3,241.93,716.43,12.83,9.58" target="#b29">[30]</ref>.</s><s xml:id="_xQZczd2" coords="3,262.12,716.11,297.15,9.90;3,166.39,728.98,360.89,9.58">The U-Net network is fast, can segment a 512 × 512 image without the need for multiple runs and allows for learning with very few labelled images.</s><s xml:id="_XEEhHmz" coords="3,530.37,728.98,28.90,9.58;3,166.39,741.54,314.15,9.58">This is an important feature in our case because the dataset is relatively small.</s><s xml:id="_tkGR9U2" coords="3,483.65,741.54,75.63,9.58;3,166.39,754.09,392.88,9.58;3,166.39,766.64,329.80,9.58">Moreover, in this research, a network and training strategy that relies on the strong use of data augmentation is required in order to use the available annotated samples more efficiently.</s></p><p xml:id="_aDd3nrs"><s xml:id="_pHaQvBM" coords="4,187.65,98.05,371.62,9.58;4,166.39,110.60,279.43,9.58">As UNet model segmentation involves a masking process, therefore all masks were created using Open Source VGG Image Annotator version 2.0.10.</s><s xml:id="_TZzytWK" coords="4,448.86,110.60,110.41,9.58;4,165.98,123.15,393.69,9.58;4,166.39,135.71,109.98,9.58">The exported annotations were used to create a black and white image by drawing polygons for which there was only one in this study dataset.</s></p><p xml:id="_sWPyfHq"><s xml:id="_z3KHvtD" coords="4,187.65,148.26,371.62,9.58;4,166.39,160.81,174.31,9.58">In order to improve the segmentation results, the initial dataset has been expanded including the DeepFashion2 dataset <ref type="bibr" coords="4,321.80,160.81,15.12,9.58" target="#b24">[25]</ref>.</s><s xml:id="_a2bAt9b" coords="4,343.61,160.81,216.91,9.58;4,166.39,173.37,392.88,9.58;4,166.39,185.92,394.63,9.58">There are no accurate measurements in the dataset, but there is clothing segmentation, which can improve the accuracy of the UNet model by defining the segmentation area and removing artefacts due to different environments.</s><s xml:id="_MS8ggHM" coords="4,166.39,198.47,392.88,9.58;4,166.39,211.02,394.63,9.58">DeepFashion2 is a large dataset of photos collected from various fields and it contains 491,000 images of 13 popular clothing categories from commercial stores and consumers.</s><s xml:id="_UE4escf" coords="4,166.39,223.58,394.62,9.58">It contains more than 800 K photos enabling it to extract dense landmarks and masks.</s><s xml:id="_cfKNgZ8" coords="4,166.39,236.13,392.88,9.58;4,166.39,248.68,191.80,9.58">However, in this study we aim to determine the size of the garment; therefore, this dataset can be used for segmentation purposes only.</s><s xml:id="_KSDUDw4" coords="4,361.32,248.68,197.95,9.58;4,166.39,261.24,117.08,9.58">A filtering procedure was carried out to select suitable photos of clothing.</s><s xml:id="_yz7dDyf" coords="4,286.54,261.24,272.73,9.58;4,166.39,273.79,392.88,9.58;4,166.39,286.34,213.86,9.58">Poor quality photos where the garment is covered, the garment is worn by a person, the garment is taken from the side or the back, there are several garments in a single photo, etc. were removed.</s><s xml:id="_eHCU6Jd" coords="4,384.72,286.34,174.55,9.58;4,166.39,298.90,272.67,9.58">A total of 18,000 images with only one garment visible from the front were identified as appropriate.</s><s xml:id="_kDnARcu" coords="4,442.17,298.90,117.11,9.58;4,166.39,311.45,392.88,9.58;4,166.39,324.00,83.84,9.58">The DeepFashion2 dataset does not provide clothing masks so using landmarks data we have developed an algorithm that creates masks.</s><s xml:id="_f3BvfQe" coords="4,253.32,324.00,305.96,9.58;4,166.39,336.55,131.45,9.58">Finally, we obtained data similar to the original dataset that could be used to train the UNet model.</s></p><p xml:id="_t9BbFrg"><s xml:id="_2qRPP2d" coords="4,187.65,349.11,371.62,9.58;4,166.39,361.66,95.63,9.58">Few experiments with UNet models have been carried out in order to increase the segmentation results.</s><s xml:id="_wUqjBjT" coords="4,265.64,361.66,293.63,9.58;4,166.39,374.21,392.88,9.58;4,166.39,386.77,285.01,9.58">First, the pre-trained UNet model (see Figure <ref type="figure" coords="4,471.38,361.66,4.23,9.58" target="#fig_0">1</ref>) with the classical structure has been employed and supplementary experiments have been performed with additional datasets, namely DeepFashion2 and Carvana datasets.</s><s xml:id="_jYhpRYq" coords="4,454.50,386.77,104.78,9.58;4,166.39,399.32,197.21,9.58">However, this approach did not work well and the results were poor.</s><s xml:id="_QyKJpRs" coords="4,366.71,399.32,192.57,9.58;4,166.39,411.87,392.88,9.58;4,166.39,424.42,45.94,9.58">Next, modified UNet architectures with the increased number of layers (added additional encoding and decoding layers) have been employed.</s><s xml:id="_WUJ3s3z" coords="4,215.42,424.42,344.24,9.58;4,166.39,436.98,333.14,9.58">Different size models pretrained with our small dataset have shown superiority compared to the classical UNet structure pre-trained with additional datasets.</s><s xml:id="_Z8SPjcZ" coords="4,502.53,436.98,56.74,9.58;4,166.39,449.53,392.88,9.58;4,166.39,462.08,192.69,9.58">The included UNet family architectures, which differ in depth and in the different datasets on which they have been trained, are listed in Table <ref type="table" coords="4,351.61,462.08,3.74,9.58" target="#tab_0">1</ref>.</s><s xml:id="_gmQwXhK" coords="5,187.65,219.20,338.16,9.58">The different models were compared on the basis of segmentation results.</s><s xml:id="_w2BB2bx" coords="5,531.28,219.20,28.00,9.58;5,166.39,231.76,394.13,9.58;5,166.39,244.31,296.07,9.58">Image segmentation aims to classify each pixel of an image as representing a certain class, e.g., could be a garment, a mannequin, or a background in our case.</s><s xml:id="_EnjRyNe" coords="5,469.11,244.31,90.17,9.58;5,166.39,256.86,183.62,9.58">There may be more or fewer classes depending on the task.</s><s xml:id="_3HBfugz" coords="5,357.12,256.86,202.15,9.58;5,166.39,269.41,394.62,9.58">Specific segmentation metrics (usually Pixel accuracy, Dice and Jaccard coefficients) are used to measure the success of the model <ref type="bibr" coords="5,529.71,269.41,15.66,9.58" target="#b30">[31,</ref><ref type="bibr" coords="5,545.36,269.41,11.74,9.58" target="#b31">32]</ref>.</s><s xml:id="_EMBDw2J" coords="5,166.39,281.97,394.62,9.58">Experimental results in this study were compared using the Dice similarity coefficient.</s><s xml:id="_HbBqSx6" coords="5,166.09,294.52,393.19,9.58;5,166.39,307.07,110.98,9.58">The Dice coefficient, also called the overlap index, is the most common metric evaluating segmentation results <ref type="bibr" coords="5,258.28,307.07,15.27,9.58" target="#b32">[33]</ref>.</s><s xml:id="_KX22MQD" coords="5,279.31,307.07,279.96,9.58;5,166.39,319.63,289.18,9.58">This coefficient was used in order to evaluate the overlap between the predicted mask and the manually-labelled ground truth mask.</s><s xml:id="_qStrUYk" coords="5,458.67,319.63,101.85,9.58;5,166.39,332.18,228.72,9.58">During model training, the coefficient was used to calculate the loss value.</s><s xml:id="_5f2FhAs" coords="5,399.21,332.18,160.26,9.58;5,166.39,344.73,165.15,9.58">The Dice value was calculated after the model received a predicted mask.</s><s xml:id="_c5ERAus" coords="5,334.63,344.73,224.64,9.58;5,166.39,357.28,302.49,9.58">Dice indices are bounded between 0 (when there is no overlap) and 1 (when predicted and true masks match perfectly).</s><s xml:id="_uccPnv6" coords="5,471.97,357.28,87.31,9.58;5,166.39,369.84,340.28,9.58">The Dice coefficient is 2× the overlap area divided by the total number of pixels in both images.</s><s xml:id="_cT46dA7" coords="5,510.23,369.84,49.05,9.58;5,166.39,382.39,392.88,9.58;5,166.39,394.94,49.80,9.58">In terms of the confusion matrix, the metrics can be reformulated into true/false positives/negatives statements:</s></p><formula xml:id="formula_0" coords="5,281.96,416.02,277.32,23.29">Dice = 2|X Y| |X| + |Y| = 2TP 2TP + FP + FN<label>(1)</label></formula><p xml:id="_AKCSrx9"><s xml:id="_vwC6fh7" coords="5,165.98,446.88,393.30,9.58;5,166.39,459.44,368.60,9.58">where |X| and |Y| are the cardinalities of the two sets (i.e., the number of pixels in each area), X is the ground truth mask, while Y represents the predicted mask.</s><s xml:id="_NcaQjsn" coords="5,542.26,459.44,17.01,9.58;5,166.39,471.67,392.88,9.90;5,166.39,484.54,88.12,9.58">The intersection (X ∩ Y) is comprised of the pixels found in both the prediction mask and the ground truth mask.</s><s xml:id="_nv4pqhy" coords="5,258.93,484.41,300.35,9.71;5,166.39,496.97,392.88,9.71;5,166.39,509.65,173.04,9.58">TP-true positives pixels that exactly match the annotated ground truth segmentation, FP-false positives pixels that are segmented incorrectly, FN-false negatives pixels that have been missed.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2." xml:id="_CT5NjXc">Garment Key Points Detection</head><p xml:id="_ksrpAyZ"><s xml:id="_MtYgjU5" coords="5,187.65,547.61,371.62,9.58;5,166.39,560.16,44.22,9.58">The segmentation process is only the first step in determining the measurements of garments.</s><s xml:id="_HPg2Z4C" coords="5,213.73,560.16,346.79,9.58;5,166.39,572.71,392.88,9.58;5,166.39,585.27,392.88,9.58;5,166.39,597.82,393.27,9.58;5,166.39,610.37,53.32,9.58">Which measurements are relevant depends on the type of garment: for a skirt, for example, it is important to know the waist and length, but for a shirt or jacket you should also measure the length of the sleeves, the width of the shoulders, etc. Segmentation should then be followed by a classification task which allows identifying the necessary dimensions.</s><s xml:id="_ndKGNYM" coords="5,222.83,610.37,336.84,9.58;5,166.39,622.92,392.89,9.58;5,166.39,635.48,96.09,9.58">Finally, once the type of garment has been identified, it is possible to identify the measurement key points which is the most challenging task and directly depends on segmentation results.</s><s xml:id="_xdEFSg8" coords="5,267.49,635.48,292.17,9.58;5,166.10,648.03,215.24,9.58">An incorrect segmentation result can reduce the accuracy of key points detection or stop the algorithm altogether.</s></p><p xml:id="_dVX9k2B"><s xml:id="_fmatbpJ" coords="5,187.65,660.58,311.45,9.58">In this study different key points detection algorithms have been created.</s><s xml:id="_rtFwXey" coords="5,502.05,660.58,57.22,9.58;5,166.39,673.14,392.88,9.58;5,166.39,685.69,300.32,9.58">The principle of the developed algorithms is to identify the edge points of the garment in the image that are necessary to determine the relevant dimensions in certain areas.</s><s xml:id="_dSkzQ6U" coords="5,469.83,685.69,89.45,9.58;5,166.39,698.24,243.64,9.58">In Figure <ref type="figure" coords="5,512.95,685.69,5.04,9.58" target="#fig_2">2</ref> the basic key points for blazers, skirts and dresses are provided.</s><s xml:id="_GvTjxq6" coords="5,413.12,698.24,146.16,9.58;5,166.39,710.79,392.88,9.58;5,166.07,723.35,195.22,9.58">For the blazers, it is important to capture the left and right shoulders' fall bottom points as the distance between these points (1 and 8) is the measure of shoulders width.</s><s xml:id="_wHnkEkE" coords="5,364.37,723.35,194.90,9.58;5,166.39,735.90,392.88,9.58;5,166.39,748.45,29.42,9.58">To measure the total length of the blazer we need to find the midpoint of the shoulder strap and the midpoint of the bottom of the blazer.</s><s xml:id="_PpY4rUK" coords="5,200.57,748.45,304.07,9.58">These points are captured on both sides, left <ref type="bibr" coords="5,404.81,748.45,12.28,9.58" target="#b1">(2,</ref><ref type="bibr" coords="5,417.09,748.45,12.28,9.58" target="#b10">11)</ref> and right <ref type="bibr" coords="5,477.55,748.45,11.61,9.58" target="#b6">(7,</ref><ref type="bibr" coords="5,489.16,748.45,11.61,9.58" target="#b9">10)</ref>.</s><s xml:id="_jvebnfm" coords="5,509.40,748.45,49.87,9.58;5,166.39,761.01,200.01,9.58">Finally, the average value of these distances is calculated.</s><s xml:id="_n9W29sd" coords="5,369.49,761.01,189.79,9.58;5,166.39,773.56,106.03,9.58">Points 3 and 6 are used to determine where the shoulder line starts.</s><s xml:id="_usjwzsX" coords="5,276.45,773.56,282.83,9.58;6,166.39,98.05,394.62,9.58">To measure the length of the left and right sleeves we have the shoulders' fall bottom points <ref type="bibr" coords="6,297.43,98.05,11.60,9.58" target="#b0">(1,</ref><ref type="bibr" coords="6,309.03,98.05,7.73,9.58" target="#b7">8)</ref> and the mid-points on the bottom of the sleeves <ref type="bibr" coords="6,534.11,98.05,15.37,9.58" target="#b11">(12,</ref><ref type="bibr" coords="6,549.48,98.05,7.69,9.58" target="#b8">9)</ref>.</s><s xml:id="_8GP2HcU" coords="6,166.09,110.60,256.63,9.58">To measure the neck width, points (4) and ( <ref type="formula" coords="6,355.57,110.60,3.84,9.58">5</ref>) are included.</s><s xml:id="_gnvwhbd" coords="6,425.82,110.60,133.45,9.58;6,166.39,123.15,272.60,9.58">It can be noticed from Figure <ref type="figure" coords="6,554.34,110.60,4.94,9.58" target="#fig_2">2</ref> that for the dresses and skirts fewer key points are required.</s><s xml:id="_FaUrgkS" coords="6,443.26,123.15,117.26,9.58;6,166.39,135.71,394.63,9.58">For the sleeveless dresses, 6 key points are included in order to measure the shoulder width, waist and total length.</s><s xml:id="_z8yrBCs" coords="6,166.39,148.26,392.88,9.58;6,166.39,160.81,284.97,9.58;6,187.65,413.75,371.62,9.58;6,166.39,426.31,371.69,9.58">In addition, the width of the bottom of the dress can be calculated from points 5 and 4. To obtain a measurement for the skirt only four points are included:  Some general points that do not depend on the type of garment are included such as angle finder point, middle left and right points, bounding box, edge points, etc.</s><s xml:id="_RvtJrad" coords="6,542.26,426.31,17.01,9.58;6,166.39,438.86,394.62,9.58">The algorithms of such point detection can facilitate the finding process of the main key points.</s><s xml:id="_4jdCxr2" coords="6,166.39,451.41,394.54,9.58;6,166.39,463.97,245.16,9.58">For example, the algorithm "ClothBoundariesCalculator" captures information on the position of the garment and the points of the bounding box.</s><s xml:id="_CkVTq9P" coords="6,414.67,463.97,144.61,9.58;6,166.39,476.52,392.88,9.58;6,166.39,489.07,81.09,9.58">In this study we have performed experiments with the three types of garments, thus 26 key-point estimation algorithms have been created.</s><s xml:id="_rMUZhWv" coords="6,250.59,489.07,308.69,9.58;6,166.39,501.63,56.44,9.58">The decisions in the algorithms are based on a threshold value applied for the pixel.</s><s xml:id="_2kuJ2vb" coords="6,225.91,501.63,333.36,9.58;6,166.39,514.18,392.88,9.58;6,166.39,526.73,95.61,9.58">For instance, Algorithm 1 represents the pseudo-code of the algorithm that finds the left and right side of the neckline with the generated mask and corresponds to the blazer's key point <ref type="bibr" coords="6,247.90,526.73,10.58,9.58" target="#b3">(4)</ref>.</s></p><p xml:id="_8eG9uSy"><s xml:id="_ZgcPAfK" coords="6,187.65,539.28,289.13,9.58">This algorithm requires initial data on the position of the garment.</s><s xml:id="_J6KGMvA" coords="6,479.88,539.28,79.40,9.58;6,166.39,551.52,294.08,9.90">All starting points have (x, y) coordinates indicating their position on the garment.</s><s xml:id="_JKDCnj9" coords="6,466.52,551.84,92.76,9.58;6,166.39,564.26,117.48,10.38">The top point of the garment is defined as T x,y .</s><s xml:id="_uueuD28" coords="6,287.00,564.39,272.28,9.58;6,166.39,576.81,123.62,10.38">The middle point of the garment on the left side is annotated as L x,y and the right as R x,y .</s><s xml:id="_dB7fjAt" coords="6,293.11,576.94,266.16,9.58;6,166.48,589.37,125.35,10.38">The upper point of the collar on the left side is annotated as CL x,y and the right as CR x,y .</s><s xml:id="_ZMKWEQk" coords="6,294.91,589.37,229.41,10.38">The middle of the garment is defined as point M x,y .</s><s xml:id="_3nxJySP" coords="6,527.41,589.50,31.87,9.58;6,166.39,601.92,208.19,10.38">The set containing the garment mask is defined as G x,y .</s><s xml:id="_kU9WaWS" coords="6,377.67,602.05,181.61,9.58;6,166.39,614.60,198.76,9.58">These points as resolved using additional algorithms which must be created separately.</s></p><p xml:id="_Cv6PNyf"><s xml:id="_5v2D7cK" coords="6,187.65,627.15,371.62,9.58;6,166.39,639.71,370.42,9.58">To find the midpoint between the extreme point of the shoulder and the highest point of the neck, the algorithm needs to find the highest point on the neck collar first.</s><s xml:id="_VxDMDpM" coords="6,542.26,639.71,17.01,9.58;6,166.39,652.26,392.88,9.58;6,166.39,664.68,392.88,9.71;6,166.39,677.24,322.03,9.71">The algorithm begins the search of the neckline from the middle of the garment with the aim to find the smallest x and smallest y coordinates for the left neck collar and the largest x and smallest y for the right collar which are return from algorithm as r point.</s><s xml:id="_D3RESEH" coords="6,491.51,677.37,67.76,9.58;6,166.39,689.92,277.63,9.58">The algorithms for finding measurement points for garments consist of 4 parts:</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_myyNqTx">•</head><p xml:id="_r67xn8m"><s xml:id="_KS49SzG" coords="6,188.02,707.45,354.12,9.58;6,166.39,720.01,6.04,9.58;6,188.02,719.88,316.90,9.71;6,166.39,732.56,6.04,9.58;6,188.02,732.56,360.93,9.58;6,166.39,745.11,6.04,9.58;6,188.02,745.11,371.25,9.58;6,188.02,757.67,103.40,9.58">Identification of bounding box and the outermost points of the garment contour; • Detection of garment's angles, shapes, and changes in (x, y) coordinates; • Key points prediction based on auxiliary algorithms that find the desired location; • Final prediction that sets the sensitivity factor for developed algorithms to adapt to the type of the garment.</s><s xml:id="_3y3fe7y" coords="6,294.50,757.67,264.77,9.58;6,188.02,770.22,116.92,9.58">Then the pixel to cm ratio is calculated and the dimensions of the garment are produced.</s></p><p xml:id="_xA7ACb4"><s xml:id="_2Q6aeJg" coords="7,176.64,101.07,297.20,9.58">Algorithm 1: Pseudo-code for left and right neck line identification.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_rWf6MVE">Left Right</head><p xml:id="_3rEM9QC"><s xml:id="_QXM8Ktb" coords="7,193.39,139.88,9.56,6.02;7,221.28,138.74,26.19,8.43;7,193.63,149.81,9.56,6.02">1. y = M y 2.</s></p><p xml:id="_ZBu8SVD"><s xml:id="_7NNUz8c" coords="7,221.18,148.68,51.70,8.43;7,193.63,159.75,9.56,6.02">WHILE y &gt; T x 3.</s></p><p xml:id="_bDgMnxr"><s xml:id="_zgXnrST" coords="7,231.86,158.61,26.37,8.43;7,193.39,169.69,9.56,6.02">x = M x 4.</s></p><p xml:id="_3jEGYk2"><s xml:id="_AkJmNus" coords="7,231.62,168.55,52.21,8.43;7,193.63,179.63,9.56,6.02">WHILE x &gt; L x 5.</s></p><p xml:id="_dwZRcqs"><s xml:id="_c2u4Q5R" coords="7,237.30,178.49,49.18,7.75;7,193.63,189.57,9.56,6.02">IF (x, y) ∈ G 6.</s></p><p xml:id="_43wbpQw"><s xml:id="_sg6RtFT" coords="7,242.97,188.43,91.54,8.43;7,193.39,199.50,9.56,6.02">IF CL x = 0 OR y &lt; CL y 7.</s></p><p xml:id="_4xrEa7V"><s xml:id="_2xzbTEj" coords="7,248.66,198.37,33.02,7.75;7,193.63,209.44,9.56,6.02">r = (x, y) 8.</s></p><p xml:id="_28kYTmb"><s xml:id="_XztkG3C" coords="7,237.53,208.45,10.72,7.60;7,193.63,219.38,9.56,6.02">x-9.</s></p><p xml:id="_gyWscPD"><s xml:id="_4bk9eyS" coords="7,231.73,218.39,10.64,7.60">y-</s></p><formula xml:id="formula_1" coords="7,193.39,141.23,250.28,96.72">10. return r 1. y = M y 2.</formula><p xml:id="_dvX392x"><s xml:id="_mKuXwdn" coords="7,417.38,151.17,51.70,8.43;7,389.84,162.24,9.56,6.02">WHILE y &gt; T x 3.</s></p><p xml:id="_kgq5KpS"><s xml:id="_bwFKkBd" coords="7,428.07,161.10,26.37,8.43;7,389.60,172.18,9.56,6.02;7,427.83,171.04,53.02,8.43;7,389.84,182.12,9.56,6.02">x = M x 4. WHILE x &lt; R x 5.</s></p><p xml:id="_tqWG9VS"><s xml:id="_dXYesvt" coords="7,433.51,180.98,49.18,7.75;7,389.84,192.06,9.56,6.02">IF (x, y) ∈ G 6.</s></p><p xml:id="_4DNUyQh"><s xml:id="_sBXPZkt" coords="7,439.17,190.92,93.15,8.43;7,389.60,201.99,9.56,6.02">IF CR x = 0 OR y &lt; CR y 7.</s></p><p xml:id="_f7VdrJq"><s xml:id="_sKRy9Gu" coords="7,444.86,200.86,33.02,7.75;7,389.84,211.93,9.56,6.02">r = (x, y) 8.</s><s xml:id="_GMT2tT4" coords="7,187.65,316.99,371.62,9.58;7,166.39,329.55,341.69,9.58">The experiments performed in this study aim to determine whether widely used methods for edge detection can be applied to determine the edges of a garment.</s><s xml:id="_WFEfr4V" coords="7,511.11,329.55,48.16,9.58;7,166.39,342.10,393.16,9.58;7,166.39,354.65,392.88,9.58;7,166.10,367.21,108.65,9.58">The photos collected during the study have a clear edge with the environment, but the main drawback is that these edges may be on the garment itself, which causes a problem that will require processing of the results.</s><s xml:id="_ynsvgTd" coords="7,277.86,367.21,281.61,9.58;7,166.39,379.76,33.09,9.58">There is also a mannequin in each photo and there may be other objects.</s><s xml:id="_3xazTyM" coords="7,204.23,379.76,355.05,9.58;7,166.39,392.31,135.58,9.58">The detection of the edges of extraneous artefacts is a side factor complicating the use of the resulting edges.</s><s xml:id="_9psHBkc" coords="7,306.47,392.31,252.81,9.58;7,166.39,404.87,392.88,9.58;7,166.39,417.42,392.89,9.58;7,166.39,429.97,205.57,9.58">The common image contour detection pipeline includes the conversion of an RGB image to a grayscale format, a binary threshold setting (which converts the image to black-and-white based on a threshold value and highlights objects of interest) and finally contours identification.</s><s xml:id="_9pn4aFV" coords="7,375.06,429.97,184.21,9.58;7,166.39,442.52,198.17,9.58">The latter step uses a method that can set the boundaries of the uniform intensity form.</s><s xml:id="_g5YG4PM" coords="7,367.68,442.52,191.99,9.58;7,166.39,455.08,135.27,9.58">To find contours, we can also use the Canny edge detection algorithm <ref type="bibr" coords="7,282.39,455.08,15.42,9.58" target="#b33">[34]</ref>.</s><s xml:id="_pbht2mF" coords="7,305.78,455.08,220.24,9.58">The Canny algorithm consists of five main steps.</s><s xml:id="_qR2GBd8" coords="7,530.13,455.08,29.14,9.58;7,166.39,467.63,392.88,9.58;7,166.39,480.18,153.70,9.58">As the algorithm is based on greyscale images, it is necessary to convert the image to greyscale before performing all of the steps.</s><s xml:id="_HXwbhGd" coords="7,324.51,480.18,234.76,9.58;7,166.39,492.74,144.59,9.58">The first step is to reduce the noise by performing a Gaussian blurring on the image.</s><s xml:id="_JKkRYMb" coords="7,314.24,492.74,245.03,9.58;7,166.39,505.29,142.23,9.58">The second step is to determine the intensity gradients using edge detection operators.</s><s xml:id="_Ys5MqG5" coords="7,313.07,505.29,246.20,9.58;7,166.39,517.84,164.98,9.58">In our case, the Sobel filter has been applied to get the intensity and edge direction matrices.</s><s xml:id="_kcp7sds" coords="7,334.47,517.84,224.81,9.58;7,166.39,530.39,96.40,9.58">The third step involves non-maximum suppression to thin out the edges.</s><s xml:id="_nXYAFw4" coords="7,267.35,530.39,291.92,9.58;7,166.39,542.95,99.49,9.58">This function works by finding the pixels with the highest value in the edge directions.</s><s xml:id="_GC7A2Kq" coords="7,269.48,542.95,289.80,9.58;7,166.07,555.50,270.62,9.58">If the pixels are not part of a local maximum, they are set to zero (converted to a black pixel), otherwise, they are not modified.</s><s xml:id="_mHNvCQp" coords="7,439.77,555.50,119.51,9.58;7,166.39,568.05,392.88,9.58;7,166.39,580.61,172.46,9.58">Because the resulted image after non-maximum suppression is not perfect (there is some noise in the image) double thresholding is applied in a fourth step.</s><s xml:id="_ZWcVBTA" coords="7,341.95,580.61,217.33,9.58;7,166.39,593.16,374.45,9.58">All pixels with a value higher than the predefined high threshold value are considered to be a strong edge and are likely to be edges.</s><s xml:id="_fkUXt6E" coords="7,545.45,593.16,13.82,9.58;7,166.10,605.71,393.18,9.58;7,166.39,618.27,392.89,9.58;7,166.39,630.82,234.38,9.58">All pixels with a value less than the predefined low threshold value are set to 0. Values between the low and high threshold values are considered "weak" edges, in other words, it is not clear whether they are real edges or not edges at all.</s><s xml:id="_CvFNhfB" coords="7,404.58,630.82,154.69,9.58;7,166.39,643.37,392.89,9.58;7,165.98,655.92,54.81,9.58">Finally, the fifth step, based on the threshold results, invokes edge tracking by hysteresis, which performs a transformation of weak pixels.</s><s xml:id="_Qq5EmZT" coords="7,223.87,655.92,335.40,9.58;7,166.39,668.48,197.22,9.58">"Weak" edges connected to strong edges are treated as true edges and those not connected to strong edges are removed.</s><s xml:id="_NGtfYUU" coords="7,367.77,668.48,191.50,9.58;7,166.10,681.03,393.18,9.58;7,166.39,693.58,103.69,9.58">The results of canny edge detection with a predefined threshold are provided in Figure <ref type="figure" coords="7,364.36,681.03,3.77,9.58" target="#fig_4">3</ref>. Different clothing types and colours were used in the experiment.</s></p><p xml:id="_d5M9TwM"><s xml:id="_6FnFtQt" coords="7,187.65,706.14,371.62,9.58;7,166.39,718.56,265.90,9.71">Another very popular edge detection technique is Sobel <ref type="bibr" coords="7,428.31,706.14,15.13,9.58" target="#b34">[35]</ref>, which is a gradient-based algorithm including manipulations to the x and y derivatives.</s><s xml:id="_QRZczNH" coords="7,435.39,718.69,123.89,9.58;7,166.39,730.93,392.88,9.90;7,166.39,743.80,394.63,9.58">Sobel algorithm converts the image into grayscale and employs two 3 × 3 kernels which are convolved with the original image to calculate approximations of the derivatives for horizontal and vertical changes.</s><s xml:id="_hcMUpVV" coords="7,166.09,756.35,321.25,9.58">The Gaussian filter is used for reducing noise that makes blurred images.</s></p><p xml:id="_PjH4feV"><s xml:id="_DG48UPJ" coords="8,187.65,98.05,371.62,9.58;8,166.39,110.60,392.88,9.58;8,166.39,123.15,149.75,9.58">Figure <ref type="figure" coords="8,217.67,98.05,4.88,9.58" target="#fig_4">3</ref> shows that edge detection using the Canny or Sobel algorithms is quite precise despite the type, background and type of the clothing, but the edges of the mannequin are detected along with the garment.</s><s xml:id="_AJkCww6" coords="8,320.27,123.15,239.00,9.58;8,166.39,135.71,277.41,9.58">Moreover, the shadows visible in the original images are depicted as a double contour line in the resulting image.</s><s xml:id="_UXdN4Wd" coords="8,449.66,135.71,109.62,9.58;8,166.10,148.26,393.18,9.58;8,166.39,160.81,137.57,9.58">Changing the algorithm parameters did not provide the required result either, since we need to find the edges of the outer shape of the garment.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.2." xml:id="_HTQbPx7">K-Means Clustering Approach</head><p xml:id="_pnSrveP"><s xml:id="_ZbVSEHt" coords="8,187.65,573.32,373.27,9.58;8,166.12,585.87,83.06,9.58">Many clustering methods have been developed for various purposes, usually unsupervised classification.</s><s xml:id="_dHAxZkt" coords="8,252.14,585.87,307.14,9.58;8,166.39,598.29,393.08,9.71;8,165.98,610.98,100.03,9.58">K-means clustering is one of the instances of such type of algorithm that aims to divide N observations into K groups, with each observation belonging to the cluster with the closest mean.</s><s xml:id="_qBemBcK" coords="8,269.72,610.98,289.76,9.58;8,166.39,623.53,81.32,9.58">A cluster is a collection of data points that are clustered together due to similarities.</s><s xml:id="_p7TUFF8" coords="8,250.81,623.53,308.66,9.58;8,166.39,636.08,235.69,9.58">For the image segmentation, including different colour spaces (RGB or L*a*b) clusters refers to different image colours <ref type="bibr" coords="8,370.78,636.08,15.65,9.58" target="#b35">[36,</ref><ref type="bibr" coords="8,386.43,636.08,11.74,9.58" target="#b36">37]</ref>.</s><s xml:id="_9sxHSch" coords="8,405.11,636.08,154.16,9.58;8,166.39,648.64,244.44,9.58">The algorithm aims to minimize the Euclidean distance between observations and centroids.</s><s xml:id="_nsbeX7q" coords="8,413.92,648.64,145.36,9.58;8,166.39,661.19,324.07,9.58">Single or few iteration thresholds can be used to segment the image adaptively and to filter the noise <ref type="bibr" coords="8,471.19,661.19,15.42,9.58" target="#b37">[38]</ref>.</s><s xml:id="_SCZQHhA" coords="8,494.36,661.19,64.91,9.58;8,166.39,673.74,392.88,9.58;8,166.39,686.29,392.88,9.58;8,166.39,698.85,110.67,9.58">In general, the goal of the K-means approach is to find parameters that filter out the influence of the background on the image, so that the final segmentation result, the target object, is more accurately distinguished.</s></p><p xml:id="_aRX8sJC"><s xml:id="_jbmfgCK" coords="8,187.65,711.40,371.62,9.58;8,166.39,723.95,393.87,9.58;8,166.39,736.51,280.79,9.58">For segmentation of garment, K-means is used to identify the three most dominant colours in the image (e.g., background, mannequin and dominant colour of the garment) and calculate the thresholds in order to generate a binary image.</s><s xml:id="_QMf4vnF" coords="8,450.30,736.38,108.98,9.71;8,166.39,749.06,394.62,9.58">The value of K should be specified in advance, and the correct selection of this value is not always straightforward.</s><s xml:id="_XBey2rn" coords="8,166.04,761.48,316.72,9.71">Values of K in the range from 2 to 6 have been experimentally tested.</s><s xml:id="_JAyCK6D" coords="8,488.01,761.61,71.26,9.58;8,165.98,774.04,162.64,9.71">The best results were obtained when K = 2 or K = 3.</s><s xml:id="_HC5QFy4" coords="8,333.39,774.17,226.72,9.58;9,166.39,97.92,218.33,9.71">However, with the given data the results are 6.8% better (in terms of mask accuracy) when K = 3.</s><s xml:id="_aFr4BaN" coords="9,391.30,98.05,167.98,9.58;9,166.39,110.60,392.88,9.58;9,165.98,123.15,28.07,9.58">Therefore, based on the three values obtained (centroid-based thresholds), all pixels in the image are converted to black and white.</s><s xml:id="_EvcJUbg" coords="9,199.19,123.15,300.71,9.58">It is observed that the resulted image after clustering is still noisy.</s><s xml:id="_9FgZJpS" coords="9,505.05,123.15,54.23,9.58;9,166.39,135.71,136.74,9.58">The noise is reduced using a median filter.</s><s xml:id="_ukpQxw9" coords="9,308.48,135.71,250.79,9.58;9,166.39,148.26,193.82,9.58">To smooth the image a few iterations of morphological operations-dilation and erosion are applied.</s><s xml:id="_6jYqBdJ" coords="9,363.31,148.26,195.96,9.58;9,166.39,160.81,392.88,9.58;9,166.39,173.37,392.88,9.58;9,166.39,185.92,29.92,9.58">These techniques are used not only for noise reduction but also for identifying holes in the image (which is very relevant when we have mottled clothes), isolating individual elements and joining disparate elements in the image.</s><s xml:id="_unwe9gz" coords="9,199.40,185.92,359.88,9.58;9,165.98,198.47,217.53,9.58">In our case, we use structured element matrices of size 5 (kernel size = (5, 5)) and we performed three iterations of both operations.</s><s xml:id="_YK52kAV" coords="9,386.61,198.47,172.96,9.58;9,166.39,211.02,392.88,9.58;9,166.39,223.58,293.70,9.58">Increasing the number of iterations (up to 5) is relevant for multi-coloured garments (as it fills the holes and creates a continuous mask), but may have a negative effect on single-coloured garments.</s><s xml:id="_ejw7sAW" coords="9,463.22,223.58,96.06,9.58;9,166.39,236.13,195.68,9.58">Contours are detected using the concept of Canny edge detection.</s><s xml:id="_xZNkBtd" coords="9,366.44,236.13,192.83,9.58;9,166.39,248.68,264.51,9.58">An iteration process ("cleaning up") of the remaining weak edges was performed setting them to zero.</s><s xml:id="_Cj8eGXw" coords="9,433.99,248.68,125.29,9.58;9,166.39,261.24,146.04,9.58">Finally, as a result, an image mask is provided (see Figure <ref type="figure" coords="9,301.42,261.24,3.67,9.58" target="#fig_4">3</ref>).</s><s xml:id="_pX9hHvc" coords="9,317.50,261.24,241.77,9.58;9,166.39,273.79,392.88,9.58;9,166.39,286.34,392.88,9.58;9,166.39,298.90,351.29,9.58">Although the result with dark-coloured clothes looks really promising (the mannequin is excluded as well), the algorithm performs badly with multi-coloured fabrics, and especially with light-coloured garments where the garment is hardly distinguishable from both the background and the mannequin (Figure <ref type="figure" coords="9,506.98,298.90,3.57,9.58" target="#fig_4">3</ref>).</s><s xml:id="_Z8PyG4c" coords="9,520.78,298.90,38.50,9.58;9,166.39,311.45,350.38,9.58">Ambient shadows also strongly influence the resulting images of the K-means algorithm.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2." xml:id="_6AqPuVr">UNet-Based Segmentation</head><p xml:id="_TxBqMUH"><s xml:id="_pssSVbP" coords="9,187.65,349.41,371.62,9.58;9,166.39,361.96,112.19,9.58">Figure <ref type="figure" coords="9,218.15,349.41,4.89,9.58" target="#fig_5">4</ref> represents a few garment image segmentation results based on deep learning models described above.</s><s xml:id="_mmcqmRW" coords="9,283.73,361.96,277.20,9.58;9,166.39,374.51,392.88,9.58;9,166.39,387.06,60.45,9.58">From the predicted masks we can see that UNet models pretrained with DeepFashion2 and Carvana dataset have the lowest accuracy compared to other models.</s><s xml:id="_WAEceBu" coords="9,229.96,387.06,329.31,9.58;9,166.39,399.62,264.18,9.58">In the segmentation results, we can see that the clothing lines in the photos are not preserved and the entire shape of the garment is lost.</s><s xml:id="_s9mYKyw" coords="9,433.66,399.62,126.87,9.58;9,166.39,412.17,369.87,9.58">However, as with all models, the segmentation of the skirt shows very good results due to the bright red colour.</s><s xml:id="_kuHnHAN" coords="9,539.86,412.17,19.41,9.58;9,166.39,424.72,394.62,9.58">This indicates that the high contrast with the environment in the photos is an important factor.</s><s xml:id="_SGngGDM" coords="9,166.09,437.28,393.19,9.58;9,166.39,449.83,288.88,9.58">The best results in maintaining bright and smooth boundaries of clothing are obtained with UNet models including additional encoding and decoding layers.</s><s xml:id="_USUsXyA" coords="10,187.65,98.05,371.62,9.58;10,166.39,110.60,279.38,9.58">Dice values show that used deep learning models were highly volatile during the training phase and Dice coefficients ranged from 0.02 to 0.979.</s><s xml:id="_9fhWPwW" coords="10,453.15,110.60,106.12,9.58;10,166.12,123.15,393.16,9.58;10,166.07,135.71,55.59,9.58">Average and maximum values of Dice coefficient were calculated estimating the results of five experimental runs (see Table <ref type="table" coords="10,211.00,135.71,3.55,9.58" target="#tab_1">2</ref>).</s><s xml:id="_6paeGaB" coords="10,224.75,135.71,334.53,9.58;10,166.39,148.26,181.69,9.58">Models that were trained with the Carvana dataset or DeepFashion2 showed no significant improvement in accuracy.</s><s xml:id="_XdvGQEU" coords="10,353.14,147.94,206.13,9.90;10,166.39,160.81,392.88,9.58;10,166.39,173.37,150.88,9.58">The UNet 128 × 128 model with a maximum Dice accuracy of 0.979 demonstrated the highest accuracy results obtained through all five runs including augmentation.</s><s xml:id="_n6Ja62b" coords="10,320.38,173.37,239.14,9.58;10,165.98,185.92,230.26,9.58">The average value of the Dice coefficient reaches 0.917 with augmentation and 0.899 without augmentation.</s><s xml:id="_J6xvkyy" coords="10,399.34,185.92,159.93,9.58;10,166.39,198.47,392.88,9.58;10,166.39,211.02,392.88,9.58;10,166.39,223.26,392.88,9.90;10,166.39,236.13,307.30,9.58">However, it can be concluded that in choosing a UNet model, the variation in model depth should be rationally evaluated, as the classical UNet uses much less computational resources than models with additional layers, but compared to UNet 128 × 128 its average accuracy according to the Dice value is 0.113 lower including augmentation and 0.047 without augmentation.</s><s xml:id="_q3X5K4j" coords="10,187.65,419.76,371.62,9.58;10,166.39,432.31,381.18,9.58">One of the five training processes of all included models during 50 epochs is shown in Figure <ref type="figure" coords="10,210.58,432.31,5.08,9.58" target="#fig_6">5</ref> providing the variation of Dice coefficient value throughout the process.</s><s xml:id="_BneZAsV" coords="10,552.53,432.31,6.74,9.58;10,166.39,444.87,392.88,9.58;10,166.39,457.42,393.08,9.58;10,166.39,469.97,101.78,9.58">It can be noticed that more stable results are gained using deeper UNet models, observing more significant Dice value variations only until the 15th epoch, while others had larger fluctuations around 0.2.</s><s xml:id="_vc5z9fy" coords="10,271.17,469.97,288.10,9.58;10,165.98,482.52,238.08,9.58">The classical UNet model achieved an average DICE value of 0.860 without augmentation and 0.800 with augmentation.</s><s xml:id="_n8MsKga" coords="10,407.89,482.52,151.39,9.58;10,166.39,495.08,250.17,9.58">However, it has only stabilized in the last four epochs of the training process (see Figure <ref type="figure" coords="10,405.78,495.08,3.59,9.58" target="#fig_6">5</ref>).</s><s xml:id="_2wwCEcb" coords="10,419.69,495.08,139.97,9.58;10,166.39,507.63,394.48,9.58">DICE values were calculated by estimating epochs from 10 to 50 and excluding the "warming period" of the first 10 epochs.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3." xml:id="_u9bJsnQ">Obtained Measurement Results</head><p xml:id="_73MMnH9"><s xml:id="_DBDzua6" coords="10,187.65,545.59,371.62,9.58;10,166.39,558.14,393.27,9.58;10,166.10,570.69,133.59,9.58">With accurate segmentation results, which means the garment is accurately separated from the background, we can predict measurements using proposed algorithms for the key point detection (see Figure <ref type="figure" coords="10,288.68,570.69,3.67,9.58" target="#fig_7">6</ref>).</s><s xml:id="_hvKjeEZ" coords="10,303.35,570.69,257.58,9.58;10,166.39,583.25,195.37,9.58">Table <ref type="table" coords="10,329.87,570.69,5.08,9.58" target="#tab_2">3</ref> shows the obtained results of garments' measurements providing mean absolute error (MAE).</s><s xml:id="_mqERSs8" coords="10,364.24,583.25,195.04,9.58;10,166.39,595.80,392.88,9.58;10,166.39,608.35,191.89,9.58">The best accuracy results have been achieved for the dresses with an average of 0.747 cm measurement error, when total length, waist and shoulders dimensions are considered.</s><s xml:id="_J9Kn7rm" coords="10,363.59,608.35,195.68,9.58;10,166.39,620.91,251.41,9.58">For dresses, the largest errors are observed in the measurements of the overall length of the dress.</s><s xml:id="_AXfC8aJ" coords="10,423.79,620.91,135.48,9.58;10,166.39,633.46,394.63,9.58">However, the predicted waist measurements are very similar to the actual ones, with an average error of only 0.3429 cm.</s><s xml:id="_FqdsjF5" coords="10,166.39,646.01,392.88,9.58;10,166.39,658.57,92.29,9.58">Prediction results of waist dimensions are relatively precise for the skirts as well, because the MAE is 0.421 cm.</s><s xml:id="_34929ay" coords="11,187.65,709.35,371.62,9.58;11,166.39,721.90,295.79,9.58">More difficulties were encountered in the measurement of blazers dimensions, with the largest errors (MAE = 1.826) predicting the width of shoulders.</s><s xml:id="_sJAPZsr" coords="11,465.30,721.90,93.98,9.58;11,166.39,734.45,393.88,9.58;11,166.39,747.01,105.49,9.58">However, the sleeves are measured quite accurately (MAE = 0.652), even though the same blazers' key point <ref type="bibr" coords="11,548.68,734.45,11.59,9.58" target="#b0">(1)</ref> is used in the algorithm.</s><s xml:id="_BepSqkn" coords="11,275.00,747.01,284.47,9.58;11,166.39,759.56,392.88,9.58;11,166.39,772.11,210.86,9.58">However, it should also be considered that such errors may occur due to measurement inaccuracies, as the algorithm for converting pixels to centimetres with different coefficients gives more accurate results.</s><s xml:id="_YZCGVR4" coords="11,380.38,772.11,178.90,9.58;12,166.39,98.05,392.89,9.58;12,166.39,110.60,392.88,9.58;12,166.39,123.15,210.14,9.58">The highest errors in the measurement of the jacket shoulders can also be explained by the complexity of the jacket image set, which includes some cases where the shoulders are difficult to determine due to the small size of the mannequin, and the colour of the jacket, etc.</s><s xml:id="_5t6bebd" coords="12,379.62,123.15,181.60,9.58;12,166.39,135.71,392.88,9.58;12,166.39,148.26,189.37,9.58">A similar situation is seen with the skirts' length measurements, where about 15% of them have tassels, a translucent top layer, a crooked cut and other issues (see Figure <ref type="figure" coords="12,344.97,148.26,3.60,9.58" target="#fig_8">7</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_DckhbGc">Discussion</head><p xml:id="_nwbrTax"><s xml:id="_SyM6XsF" coords="12,187.65,321.70,371.90,9.58;12,166.07,334.25,394.87,9.58;12,166.39,346.81,104.73,9.58">For more extensive experimental purposes, three other convolutional neural network (CNN) models have been examined, namely MobileNetV2 <ref type="bibr" coords="12,428.78,334.25,15.36,9.58" target="#b38">[39]</ref>, ResNet50 <ref type="bibr" coords="12,495.35,334.25,16.68,9.58" target="#b39">[40]</ref> and Deep-Pose <ref type="bibr" coords="12,189.66,346.81,16.70,9.58" target="#b40">[41]</ref> (see Figure <ref type="figure" coords="12,260.16,346.81,3.65,9.58" target="#fig_9">8</ref>).</s><s xml:id="_4DVXDsx" coords="12,274.21,346.81,285.07,9.58;12,166.39,359.36,22.36,9.58">All models were trained with the same dataset and for the same time.</s><s xml:id="_YDsQzuj" coords="12,191.85,359.36,369.08,9.58;12,166.39,371.91,166.99,9.58">Some models have employed pretrained weights while others used fixed, not trainable backbone part of neural network.</s><s xml:id="_qeXebWe" coords="12,336.50,371.91,222.77,9.58;12,166.39,384.47,81.18,9.58">Table <ref type="table" coords="12,362.28,371.91,4.97,9.58" target="#tab_3">4</ref> presents the experimental results including similarity metrics.</s><s xml:id="_yNcE8dJ" coords="12,250.78,384.47,308.49,9.58;12,166.39,397.02,263.44,9.58">Therefore, some widely accepted quantitative metrics are used in the study to measure the similarity between two images <ref type="bibr" coords="12,398.33,397.02,15.75,9.58" target="#b41">[42,</ref><ref type="bibr" coords="12,414.08,397.02,11.81,9.58" target="#b42">43]</ref>.</s><s xml:id="_guvfYwD" coords="12,432.94,397.02,126.34,9.58;12,166.39,409.57,392.88,9.58;12,166.12,422.12,107.59,9.58">Mean squared error (MSE) is commonly used to estimate the difference between two images by directly computing the variation in pixel values.</s><s xml:id="_G9PeH9v" coords="12,276.82,422.12,232.56,9.58">The smaller value of MSE represents better similarity.</s><s xml:id="_FdQVuwg" coords="12,512.50,422.12,46.78,9.58;12,166.39,434.68,47.73,9.58">Its value is defined as:</s></p><formula xml:id="formula_2" coords="12,220.62,454.55,334.79,13.91">MSE = (x, y) = sum(L), L = {l 1 , . . . , l N } , l n = (x n -y n ) 2 , (<label>2</label></formula><formula xml:id="formula_3" coords="12,555.40,457.69,3.87,9.58">)</formula><p xml:id="_VUVCHC9"><s xml:id="_XWyuKrf" coords="12,165.98,480.58,393.30,9.71;12,166.39,493.26,195.49,9.58">where N is the batch size, x and y are tensors of arbitrary shapes with a total of n elements each and the reduction is the sum operation.</s></p><p xml:id="_MyWRJSm"><s xml:id="_kQvKHnT" coords="12,187.65,505.81,371.62,9.58;12,166.39,518.36,392.88,9.58;12,166.39,530.92,99.51,9.58">From the results, we can notice that the MobileNetV2 fully trained model has provided better results (MSE loss = 0.009 and Dice = 0.985) compared to the fixed MobileNetV2 model using pretrained data.</s><s xml:id="_rwnkrH8" coords="12,269.27,530.92,290.00,9.58;12,166.39,543.47,271.11,9.58">The worst results have been achieved using DeepPose with MSE loss = 0.039, Dice = 0.935, Dice loss = 0.065 and RMSE = 0.190.</s><s xml:id="_naBKKHT" coords="12,187.65,678.21,371.62,9.58;12,166.39,690.77,156.74,9.58">Clothing segmentation allows identifying the garment's location and distinguishing it from other objects in the photos.</s><s xml:id="_S48f6hx" coords="12,327.89,690.77,231.38,9.58;12,166.39,703.32,392.88,9.58;12,166.39,715.87,195.62,9.58">However the key points detection approach can be used not after the segmentation, but instead of segmentation, thus omitting one step and facilitating the calculation of dimensions <ref type="bibr" coords="12,343.10,715.87,15.13,9.58" target="#b43">[44]</ref>.</s><s xml:id="_r4Etcet" coords="12,365.03,715.87,194.25,9.58;12,166.39,728.43,250.71,9.58">Determining the coordinates of tens of points is an easier task than classifying all the pixels in a photo.</s><s xml:id="_V4kzanX" coords="12,420.20,728.43,139.27,9.58;12,166.39,740.98,319.85,9.58">This allows the use of a smaller artificial neural network model and an output layer with fewer neurons.</s><s xml:id="_cAzRtKv" coords="12,489.37,740.98,69.91,9.58;12,166.39,753.53,314.84,9.58">A few instances of the results of predicted key points positions are provided in Figure <ref type="figure" coords="12,473.76,753.53,3.74,9.58" target="#fig_9">8</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1." xml:id="_uHNKKXK">Limitations</head><p xml:id="_7zkBkK4"><s xml:id="_EaqTPhz" coords="13,187.65,397.54,371.62,9.58;13,166.39,410.09,392.88,9.58;13,166.10,422.64,30.91,9.58">The main drawback of our solution is that the developed algorithm cannot adapt to the different conditions that occur on exceptional terms when a garment mask is created poorly.</s><s xml:id="_pUUnQpA" coords="13,200.11,422.64,359.17,9.58;13,166.39,435.20,392.88,9.58;13,166.39,447.75,148.34,9.58">Uneven edges and unfilled cavities can corrupt the results or completely stop the operation of the algorithm, as finding some points is necessary to calculate the final results for all dimensions of the garment.</s><s xml:id="_F3M9Ft4" coords="13,317.84,447.75,241.44,9.58;13,166.39,460.30,117.27,9.58">For this reason, we believe that a multi-level prediction could be more appropriate.</s><s xml:id="_vwr6RzS" coords="13,286.72,460.30,272.55,9.58;13,166.39,472.85,394.63,9.58">The first step in creating a mask is to set the points according to the type of clothing and a simple algorithm to determine the distance between the points.</s><s xml:id="_JCKx82Z" coords="13,166.09,485.41,393.19,9.58;13,166.39,497.96,189.82,9.58">This allows calculating the dimensions of garments if garments are photographed at the same distance and with the same camera.</s><s xml:id="_T3hc7TD" coords="13,361.42,497.96,197.85,9.58;13,166.39,510.51,392.88,9.58;13,166.39,523.07,70.21,9.58">Since the ratio of pixels to centimetres does not change in the photos, the only thing needed is to measure a constant or train a neural network model.</s><s xml:id="_Q9C9xRk" coords="13,239.69,523.07,319.98,9.58;13,166.39,535.62,392.88,9.58;13,166.39,548.17,34.48,9.58">However, experimentation has shown that it is difficult to ensure exactly the same experimental conditions, such as the distance, angle, lens and resolution of the camera.</s><s xml:id="_q8BbQ2F" coords="13,203.97,548.17,355.31,9.58;13,166.39,560.73,19.29,9.58">One possible solution is to capture the garment together with an object of a fixed size.</s><s xml:id="_wnUWEEX" coords="13,188.79,560.73,371.74,9.58;13,166.39,573.28,15.13,9.58">This could be a credit card, a geometric shape of a certain size, for example, a square, etc.</s><s xml:id="_WcWzKZD" coords="13,184.61,573.28,329.36,9.58">These objects should also be recognized in the image and used for scaling.</s><s xml:id="_vQxJRm4" coords="13,517.05,573.28,43.47,9.58;13,166.39,585.83,392.88,9.58;13,166.39,598.38,372.77,9.58">However, even universally sized objects (e.g., bank cards) can have different colours, reflected in the photograph, blending in with the clothing, which causes additional problems.</s><s xml:id="_7SnpwVX" coords="13,544.26,598.38,15.21,9.58;13,166.39,610.94,260.67,9.58">For these reasons, printed templates are often used for scaling.</s><s xml:id="_ZrwXygH" coords="13,430.15,610.94,129.13,9.58;13,166.10,623.49,393.18,9.58;13,166.39,636.04,125.64,9.58">They are easy to recognize in photographs and can be used to calculate an accurate scale regardless of the camera, the shooting angle and distance.</s></p><p xml:id="_4ZzaJ4K"><s xml:id="_5wpsxrU" coords="13,187.65,648.60,371.62,9.58;13,166.39,661.15,233.06,9.58">The other method of estimating the scale of the object is with an algorithm that utilizes continuous frames to estimate the camera's pose <ref type="bibr" coords="13,380.43,661.15,15.22,9.58" target="#b44">[45]</ref>.</s><s xml:id="_bcQCdqQ" coords="13,402.54,661.15,156.73,9.58;13,166.39,673.70,348.81,9.58">This method has been implemented in smartphone apps (e.g., iPhone) thus users can determine object size and scale.</s><s xml:id="_2V5kSEn" coords="13,518.32,673.70,42.20,9.58;13,166.39,686.26,392.88,9.58;13,166.39,698.81,144.84,9.58">However, this approach requires a video or some other references, therefore it is not suitable for scale estimation from clothing images.</s></p><p xml:id="_Q6TvNnA"><s xml:id="_3gaA6XQ" coords="13,187.65,711.36,371.62,9.58;13,166.39,723.91,330.12,9.58">The UNet-based solution developed in this study removes extraneous artefacts visible in the image and solves the problem of varying environmental conditions.</s><s xml:id="_mFrFAWz" coords="13,499.61,723.91,59.66,9.58;13,166.39,736.47,392.88,9.58;13,166.39,749.02,56.72,9.58">UNet collects information about the garment position in the photo, which is used in the algorithm as a binary array.</s><s xml:id="_kS5mC8W" coords="13,226.21,749.02,333.07,9.58;13,166.39,761.57,245.37,9.58">With this data, the algorithm can easily identify points on the garment that can be used to calculate the dimensions of the garment.</s><s xml:id="_NFJwvkJ" coords="13,414.84,761.57,144.43,9.58;13,166.39,774.13,392.88,9.58;14,166.39,98.05,86.72,9.58">The advantage of this solution is that it is possible to clearly identify the problems that cause the model to predict garment dimensions poorly.</s><s xml:id="_rYCzWDz" coords="14,259.25,98.05,300.02,9.58;14,166.10,110.60,326.33,9.58">Such a division between mask prediction and algorithm makes it possible to achieve high accuracy, expandability and wide applicability.</s><s xml:id="_v2fppsw" coords="14,497.77,110.60,61.51,9.58;14,166.39,123.15,392.89,9.58;14,166.39,135.71,393.08,9.58;14,166.39,148.26,65.16,9.58">It is a flexible solution that does not require strict environmental conditions, and measurements can be made using different mannequins, photographing clothes on a person, hanging on a hanger or lying down.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2." xml:id="_8ntGpEx">Human Measurement Error</head><p xml:id="_dQDHwGT"><s xml:id="_jAXmMDG" coords="14,187.65,186.22,373.28,9.58;14,166.39,198.77,80.65,9.58">Writing down detailed information about each garment element is manual and timeconsuming labour.</s><s xml:id="_SCcwEf8" coords="14,250.12,198.77,310.81,9.58;14,166.39,211.32,371.43,9.58">By correctly identifying main clothing parts, such automated segmentation and measuring system could even improve over human-made measurements.</s><s xml:id="_cbkcbHv" coords="14,541.35,211.32,18.13,9.58;14,166.39,223.88,394.53,9.58;14,166.10,236.43,276.25,9.58">Our empirical experiment has shown that human measurement error can be up to 3 cm, depending on the specific areas of the garment being measured.</s><s xml:id="_Pxpw667" coords="14,445.91,236.43,113.37,9.58;14,166.39,248.98,122.14,9.58">The experiment involved 20 people aged 22-58 years.</s><s xml:id="_3qVZFwj" coords="14,291.65,248.98,249.79,9.58">Each of them was asked to measure two types of clothes.</s><s xml:id="_tkmx6RK" coords="14,544.54,248.98,14.93,9.58;14,166.39,261.54,392.88,9.58;14,166.39,274.09,273.19,9.58">For skirts, they were asked to provide two dimensions-waist and skirt length, and for men's jackets-shoulder width, overall jacket length and sleeves length.</s><s xml:id="_e7q6x72" coords="14,442.55,274.09,116.72,9.58;14,166.39,286.64,392.88,9.58;14,166.39,299.19,182.12,9.58">Even with prior instruction on how and what to measure, errors still occur, for example, up to 3.02 cm in the case of a jacket length measurement (see Figure <ref type="figure" coords="14,337.72,299.19,3.60,9.58" target="#fig_10">9</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5." xml:id="_eRP4ZDP">Conclusions</head><p xml:id="_Th93d5T"><s xml:id="_Bbs4F8R" coords="14,187.65,527.20,373.37,9.58">This paper addresses the problem of automatic measurements of garments dimensions.</s><s xml:id="_HH5bsTv" coords="14,166.09,539.75,394.84,9.58;14,166.39,552.30,294.87,9.58">The proposed solution consists of deep learning-based garment segmentation and the detection of key points needed to measure the main garment dimensions.</s><s xml:id="_vu6j2Ze" coords="14,464.36,552.30,95.30,9.58;14,166.39,564.86,263.21,9.58">Different UNet family architectures have been employed for segmentation tasks.</s><s xml:id="_Hce3xFB" coords="14,434.66,564.54,124.61,9.90;14,165.98,577.41,393.30,9.58;14,165.98,589.96,393.30,9.58;14,165.98,602.52,129.72,9.58">The UNet 128 × 128 model with a Dice accuracy of 0.977 has demonstrated the highest accuracy results compared with other UNet models and showed the superiority over the UNet models pre-trained with the additional datasets.</s><s xml:id="_fbPnFze" coords="14,301.03,602.52,258.25,9.58;14,166.39,614.75,281.08,9.90">The key points detection process has been performed on the predicted masks obtained using the Unet 128 × 128 model.</s><s xml:id="_P87JRxP" coords="14,450.70,615.07,108.77,9.58;14,166.39,627.62,392.88,9.58;14,166.39,640.17,394.62,9.58">Separate algorithms (for the blazers, skirts and dresses) have been developed in this research to identify general and specific garment key points enabling us to measure the dimensions of the garment.</s><s xml:id="_xu3fsY3" coords="14,166.01,652.73,393.27,9.58;14,166.39,665.28,392.88,9.58;14,166.39,677.83,372.29,9.58">Automatic measurements experiments including three types of garments (blazers, skirts and dresses) have resulted in an average 1.27 cm measurement error for the prediction of the basic measurements of blazers, 0.747 cm for dresses and 1.012 cm for the skirts.</s><s xml:id="_H7jUzCP" coords="14,542.26,677.83,17.01,9.58;14,166.39,690.07,392.88,9.90;14,166.39,702.94,274.82,9.58">The results are promising, given that in the industry a measurement error of up to ∼2 cm is acceptable, while human measurement error can be up to 3.02.</s></p><p xml:id="_jgcvx2P"><s xml:id="_YnAhjEk" coords="14,187.65,715.49,373.28,9.58;14,166.10,728.05,393.18,9.58;14,166.39,740.60,34.89,9.58">The comparison of existing solutions is quite difficult due to the purpose of the proposed solution itself, diverse environmental conditions, individual datasets or evaluation metrics.</s><s xml:id="_ggcHvpq" coords="14,204.41,740.60,354.87,9.58;14,166.39,753.15,303.71,9.58">Commercial solutions currently available on the market aim to make the process of purchasing clothes easier while reducing the number of returns.</s><s xml:id="_Zgd86zW" coords="14,475.10,753.15,84.17,9.58;14,166.39,765.70,393.18,9.58;14,166.39,778.26,283.42,9.58">Therefore, the first and most important step is to obtain accurate body measurement data by integrating deep learning algorithms and other artificial intelligence techniques.</s><s xml:id="_QVekk5q" coords="14,453.80,778.26,105.47,9.58;15,166.39,98.05,392.88,9.58;15,166.39,110.60,151.75,9.58">The second objective of such systems (mobile apps) is to provide personalized clothing sizing recommendations to help eliminate sizing problems.</s><s xml:id="_tkCt6qA" coords="15,321.23,110.60,238.04,9.58;15,165.98,123.15,229.97,9.58">Such systems can be called smart shopping assistants with quite clear objectives, including sustainability.</s><s xml:id="_3T45HrF" coords="15,399.40,123.15,160.26,9.58;15,166.39,135.71,392.88,9.58;15,166.39,148.26,392.88,9.58;15,166.10,160.81,325.61,9.58">The solution proposed in this study focuses on the automated extraction of garment information, i.e., the recognition of the type of garment and the accurate measurement of its dimensions, without being tied to the positioning of the garment (lying down, on a mannequin or on a hanger).</s><s xml:id="_qrcW4A3" coords="15,494.80,160.81,64.87,9.58;15,166.39,173.37,394.54,9.58;15,166.39,185.92,393.08,9.58;15,166.39,198.47,265.13,9.58">One of the key goals of this research is to enable less-standardized garment photography, in contrast to current garment measurement systems which require fixed position setup, calibration, and/or dedicated infrastructure to ensure small error (∼0.318 cm).</s><s xml:id="_DMhAKX5" coords="15,435.67,198.47,123.61,9.58;15,166.10,211.02,393.18,9.58;15,166.10,223.58,393.18,9.58;15,166.39,236.13,168.07,9.58">Although the quality of the photos is certainly important, our solution does not require the highest quality professional photos, so it can be used both in the industry and on online platforms selling second-hand or new clothes (e.g., "Ebay", "Vinted").</s><s xml:id="_NSvsWX2" coords="15,337.47,236.13,221.80,9.58;15,166.39,248.68,392.88,9.58;15,166.39,261.24,150.16,9.58">The results presented in this study are related to the most important and challenging aspect of garment information identification-automated garment dimension measurement.</s><s xml:id="_fPxRxVq" coords="15,319.64,261.24,239.63,9.58;15,166.39,273.79,49.25,9.58">However, the potential for extending such a solution is significant.</s><s xml:id="_uubH3cs" coords="15,218.73,273.79,340.54,9.58;15,166.39,286.34,257.60,9.58">A further objective is to automate the manual entering of all the information about the garment, such as what is the type, colour, size, etc.</s><s xml:id="_x4zjhBE" coords="15,426.99,286.34,132.28,9.58;15,166.39,298.90,392.88,9.58;15,166.39,311.45,170.72,9.58">Moreover, additional solutions could be added to retrieve information from the label, which includes information on fabric composition, garment size and brand.</s><s xml:id="_PNqJ6gG" coords="15,340.85,311.45,219.67,9.58;15,166.39,324.00,392.88,9.58;15,166.39,336.55,392.88,9.58;15,166.39,349.11,393.08,9.58;15,166.39,361.66,226.47,9.58">Colour identification is one of the simplest tasks, but it is possible to develop a more sophisticated solution based on unsupervised learning algorithms to automatically identify a few dominant colours (in the case of a multi-coloured or patterned garment), and incorporate an adaptive and broad palette of colours, rather than a fixed and narrowly defined range of colours.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc><div><p xml:id="_RGkZScZ"><s xml:id="_MjkWrYq" coords="4,166.39,703.65,35.37,8.41">Figure 1.</s><s xml:id="_sm9BZKQ" coords="4,204.55,703.58,239.54,8.63">UNet model architecture used for clothes segmentation task.</s></p></div></figDesc><graphic coords="4,166.39,484.61,353.59,210.11" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc><div><p xml:id="_gkcsjmf"><s xml:id="_RPG4C35" coords="6,454.45,160.81,105.13,9.58;6,166.39,173.37,262.74,9.58">(1) top left point; (2) top right point; (3) bottom right point and (4) bottom left point.</s><s xml:id="_xZhA9AY" coords="6,432.24,173.37,127.04,9.58;6,166.39,185.92,254.36,9.58">These points are sufficient to calculate the skirt waist, overall bottom length and width.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc><div><p xml:id="_hm6eTSd"><s xml:id="_32kDSdz" coords="6,166.39,379.23,393.23,8.63;6,166.13,392.05,257.29,8.63">Figure 2. The basic key points of measurements for different type of garment: (a) blazer with 12 key points, (b) skirt with 4 key points and (c) dress with 6 key points.</s></p></div></figDesc><graphic coords="6,166.39,208.45,385.03,161.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>3 . 1 .</head><label>31</label><figDesc><div><p xml:id="_gabJgJ2"><s xml:id="_CkYhJhx" coords="7,184.43,287.87,196.37,9.50;7,166.39,301.45,22.42,9.58">Extraction of the Contours of the Garment Shape 3.1.1.</s><s xml:id="_MgnRC4c" coords="7,191.90,301.45,119.24,9.58">Edge Detection Techniques</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 3 .</head><label>3</label><figDesc><div><p xml:id="_bf7wxbn"><s xml:id="_RD9rBx8" coords="8,166.39,512.52,392.88,8.63;8,166.39,525.35,392.88,8.63;8,166.39,538.17,53.76,8.63">Figure 3. Results of different contour detection techniques: Canny algorithm with predefined threshold values, Sobel algorithm and K-means based thresholding algorithm providing edge and mask images.</s></p></div></figDesc><graphic coords="8,166.39,183.35,255.39,320.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 4 .</head><label>4</label><figDesc><div><p xml:id="_cfgSGCm"><s xml:id="_KcM9Axy" coords="9,166.39,770.03,383.62,8.63">Figure 4. Different Unet models' segmentation results for selected clothes: skirt, jacket and dress.</s></p></div></figDesc><graphic coords="9,166.39,472.36,385.01,288.82" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 5 .</head><label>5</label><figDesc><div><p xml:id="_zQ7Yeqq"><s xml:id="_3ryrmF8" coords="11,166.39,487.52,392.89,8.63;11,166.10,500.35,283.70,8.63">Figure 5. Dice coefficient value variation during the training process of different UNet architectures (with augmentation and without denoted maximum coefficient values).</s></p></div></figDesc><graphic coords="11,166.39,94.86,385.04,383.81" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 6 .</head><label>6</label><figDesc><div><p xml:id="_uxsGRvp"><s xml:id="_ra6AY9c" coords="11,166.39,674.90,36.50,8.41">Figure 6.</s><s xml:id="_vNPcmnw" coords="11,209.09,674.83,351.31,8.63;11,166.10,687.65,127.29,8.63">The instances of measurements predicted key points for different types of garments: (a) blazer, (b) skirt and (c) dress.</s></p></div></figDesc><graphic coords="11,166.39,523.24,275.03,142.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 7 .</head><label>7</label><figDesc><div><p xml:id="_wBajQRx"><s xml:id="_gYEhjr7" coords="12,166.39,273.73,392.88,8.63;12,166.39,286.55,168.06,8.63">Figure 7. Examples of specific cases: (a) in the blazers dataset regarding to shoulders line and (b) in skirts dataset regarding to the bottom line.</s></p></div></figDesc><graphic coords="12,166.39,170.80,373.23,94.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 8 .</head><label>8</label><figDesc><div><p xml:id="_2rhX3A2"><s xml:id="_ZQt6vhs" coords="13,166.39,362.46,35.37,8.41">Figure 8.</s><s xml:id="_NEJGv9d" coords="13,204.55,362.39,282.89,8.63">The comparison of different CNN architectures for keypoints detection.</s></p></div></figDesc><graphic coords="13,166.39,94.86,385.02,258.67" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 9 .</head><label>9</label><figDesc><div><p xml:id="_kz9tWss"><s xml:id="_aRp24uw" coords="14,166.39,493.21,35.37,8.41">Figure 9.</s><s xml:id="_7qVJ2sq" coords="14,204.43,493.14,349.75,8.63">The error of manual measurement for two different types of clothes: skirts and men's jackets.</s></p></div></figDesc><graphic coords="14,166.39,320.64,255.39,163.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc><div><p xml:id="_uVvZYgC"><s xml:id="_9wPnEWM" coords="5,200.26,97.74,193.12,8.63">UNet models with different pre-trained datasets.</s></p></div></figDesc><table><row><cell>UNet Model</cell><cell>Pretraining Dataset</cell></row><row><cell>UNet</cell><cell>DeepFashion2+ our dataset</cell></row><row><cell>UNet</cell><cell>Carvana + our dataset</cell></row><row><cell>UNet</cell><cell>our dataset</cell></row><row><cell>UNet 128 × 128</cell><cell>our dataset</cell></row><row><cell>UNet 256 × 256</cell><cell>our dataset</cell></row><row><cell>UNet 512 × 512</cell><cell>our dataset</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc><div><p xml:id="_YsrqA7M"><s xml:id="_NtRKDN7" coords="10,200.30,261.54,358.98,8.63;10,166.39,274.37,66.56,8.63">Different UNet models' 5 run validation results including maximum and average values of Dice coefficients.</s></p></div></figDesc><table><row><cell></cell><cell cols="2">With Augmentation</cell><cell cols="2">Without Augmentation</cell></row><row><cell>UNet Model</cell><cell>MAX Dice</cell><cell>AVG Dice</cell><cell>MAX Dice</cell><cell>AVG Dice</cell></row><row><cell>UNet</cell><cell>0.918</cell><cell>0.804</cell><cell>0.919</cell><cell>0.852</cell></row><row><cell>UNet (DeepFashion2)</cell><cell>0.906</cell><cell>0.857</cell><cell>0.825</cell><cell>0.824</cell></row><row><cell>UNet (Carvana)</cell><cell>0.891</cell><cell>0.835</cell><cell>0.879</cell><cell>0.827</cell></row><row><cell>UNet 128 × 128</cell><cell>0.979</cell><cell>0.917</cell><cell>0.943</cell><cell>0.899</cell></row><row><cell>UNet 256 × 256</cell><cell>0.976</cell><cell>0.818</cell><cell>0.922</cell><cell>0.818</cell></row><row><cell>UNet 512 × 512</cell><cell>0.971</cell><cell>0.865</cell><cell>0.906</cell><cell>0.855</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc><div><p xml:id="_QT2ba8z"><s xml:id="_v6pcFuv" coords="10,200.26,681.38,201.70,8.63">Garment measurement errors given in centimetres.</s></p></div></figDesc><table><row><cell></cell><cell>Total Length</cell><cell>Waist</cell><cell cols="2">Shoulders Sleeves</cell><cell>Average Error</cell></row><row><cell>Dresses</cell><cell>1.113</cell><cell>0.343</cell><cell>0.783</cell><cell>-</cell><cell>0.747</cell></row><row><cell>Blazers</cell><cell>0.903</cell><cell>-</cell><cell>1.826</cell><cell>0.652</cell><cell>1.127</cell></row><row><cell>Skirts</cell><cell>1.650</cell><cell>0.421</cell><cell>-</cell><cell>-</cell><cell>1.012</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4 .</head><label>4</label><figDesc><div><p xml:id="_ffFYjGq"><s xml:id="_mcXP5JE" coords="12,200.26,567.71,107.00,8.63">Values of accuracy metrics.</s></p></div></figDesc><table><row><cell>Model</cell><cell>MSE Loss</cell><cell>Dice</cell><cell>Dice Loss</cell><cell>RMSE</cell></row><row><cell>MobileNetV2 (fixed)</cell><cell>0.032</cell><cell>0.944</cell><cell>0.056</cell><cell>0.186</cell></row><row><cell>ResNet50 (fixed)</cell><cell>0.032</cell><cell>0.948</cell><cell>0.052</cell><cell>0.181</cell></row><row><cell>MobileNetV2</cell><cell>0.009</cell><cell>0.985</cell><cell>0.015</cell><cell>0.095</cell></row><row><cell>ResNet50</cell><cell>0.022</cell><cell>0.962</cell><cell>0.038</cell><cell>0.150</cell></row><row><cell>DeepPose</cell><cell>0.039</cell><cell>0.935</cell><cell>0.065</cell><cell>0.199</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_fVYb8FG"><p xml:id="_kbKH5Ju"><s xml:id="_SZPwDxd" coords="15,166.39,562.23,392.89,8.63;15,166.39,573.94,50.91,8.63">Data Availability Statement: The data are not publicly available due to commercial sensitivity and data privacy.</s></p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_EFJAqpD"><p xml:id="_NtQUQ3a"><s xml:id="_3PPzNn2" coords="15,166.39,515.12,220.22,8.63">Institutional Review Board Statement: Not applicable.</s></p><p xml:id="_uCYxcVY"><s xml:id="_XqR6Jfj" coords="15,166.39,532.82,392.88,8.63;15,166.39,544.53,23.84,8.63">Informed Consent Statement: Informed consent was obtained from all subjects involved in the study.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_u3fT9MD">Conflicts of Interest:</head><p xml:id="_jx4AUM5"><s xml:id="_zFW8qst" coords="15,252.09,591.64,165.99,8.63">The authors declare no conflict of interest.</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="15,39.08,628.55,520.20,8.63;15,57.23,639.94,202.13,8.74" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" xml:id="_8dafpXF">An Overview of Segmentation Algorithms for the Analysis of Anomalies on Medical Images</title>
+		<author>
+			<persName><forename type="first">Subbiahpillai</forename><forename type="middle">Neelakantapillai</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alfred</forename><forename type="middle">Lenin</forename><surname>Fred</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><forename type="middle">Sebastin</forename><surname>Varghese</surname></persName>
+		</author>
+		<idno type="DOI">10.1515/jisys-2017-0629</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_nBzfPyt">Journal of Intelligent Systems</title>
+		<idno type="ISSN">0334-1860</idno>
+		<idno type="ISSNe">2191-026X</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="612" to="625" />
+			<date type="published" when="2020">2020</date>
+			<publisher>Walter de Gruyter GmbH</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kumar, S.N.; Fred, A.L.; Varghese, P.S. An Overview of Segmentation Algorithms for the Analysis of Anomalies on Medical Images. J. Intell. Syst. 2020, 29, 612-625. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="15,39.08,651.56,521.76,8.63;15,56.91,662.95,255.57,8.74" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" xml:id="_kCF69Qq">Deep Learning and Its Applications in Biomedicine</title>
+		<author>
+			<persName><forename type="first">Chensi</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Feng</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hai</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Deshou</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wenjie</forename><surname>Shu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Weizhong</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yiming</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaochen</forename><surname>Bo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhi</forename><surname>Xie</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.gpb.2017.07.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_3yrf3E8">Genomics, Proteomics &amp; Bioinformatics</title>
+		<title level="j" type="abbrev">Genomics, Proteomics &amp; Bioinformatics</title>
+		<idno type="ISSN">1672-0229</idno>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="17" to="32" />
+			<date type="published" when="2018-02">2018</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cao, C.; Liu, F.; Tan, H.; Song, D.; Shu, W.; Li, W.; Zhou, Y.; Bo, X.; Xie, Z. Deep Learning and Its Applications in Biomedicine. Genom. Proteom. Bioinform. 2018, 16, 17-32. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct coords="15,39.08,674.58,520.20,8.63;15,57.23,685.97,494.13,8.74" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" xml:id="_3WFXwhd">Seismic performance evaluation of recycled aggregate concrete-filled steel tubular columns with field strain detected via a novel mark-free vision method</title>
+		<author>
+			<persName><forename type="first">Yunchao</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ming</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zheng</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Changjie</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ben</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cong</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lijuan</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.istruc.2021.12.055</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Mc6YCvj">Structures</title>
+		<title level="j" type="abbrev">Structures</title>
+		<idno type="ISSN">2352-0124</idno>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="426" to="441" />
+			<date type="published" when="2022-03">2022</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tang, Y.; Zhu, M.; Chen, Z.; Wu, C.; Chen, B.; Li, C.; Li, L. Seismic performance evaluation of recycled aggregate concrete-filled steel tubular columns with field strain detected via a novel mark-free vision method. Structures 2022, 37, 426-441. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="15,39.08,697.59,520.20,8.63;15,57.23,708.98,306.92,8.74" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" xml:id="_dHB52fk">Multi-Target Recognition of Bananas and Automatic Positioning for the Inflorescence Axis Cutting Point</title>
+		<author>
+			<persName><forename type="first">Fengyun</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jieli</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Siyu</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yaxin</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Puye</forename><surname>Ai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhou</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpls.2021.705021</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_HrjWAB5">Frontiers in Plant Science</title>
+		<title level="j" type="abbrev">Front. Plant Sci.</title>
+		<idno type="ISSNe">1664-462X</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">705021</biblScope>
+			<date type="published" when="2021-11-02">2021</date>
+			<publisher>Frontiers Media SA</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wu, F.; Duan, J.; Chen, S.; Ye, Y.; Ai, P.; Yang, Z. Multi-Target Recognition of Bananas and Automatic Positioning for the Inflorescence Axis Cutting Point. Front. Plant Sci. 2021, 12, 705021. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="15,39.08,720.60,521.76,8.63;15,57.23,732.00,183.26,8.74" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" xml:id="_ShS5557">Grading method of soybean mosaic disease based on hyperspectral imaging technology</title>
+		<author>
+			<persName><forename type="first">Jiangsheng</forename><surname>Gui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jingyi</forename><surname>Fei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zixian</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaping</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alou</forename><surname>Diakite</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.inpa.2020.10.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_35URuUk">Information Processing in Agriculture</title>
+		<title level="j" type="abbrev">Information Processing in Agriculture</title>
+		<idno type="ISSN">2214-3173</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="380" to="385" />
+			<date type="published" when="2021-09">2021</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gui, J.; Fei, J.; Wu, Z.; Fu, X.; Diakite, A. Grading method of soybean mosaic disease based on hyperspectral imaging technology. Inf. Process. Agric. 2021, 8, 380-385. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="15,39.08,743.62,520.20,8.63;15,56.94,755.01,178.84,8.74" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" xml:id="_2NhYDdh">Plant Disease Recognition Model Based on Improved YOLOv5</title>
+		<author>
+			<persName><forename type="first">Zhaoyi</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ruhui</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yiyan</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chuyu</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Siyu</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhineng</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shiwei</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiangjun</forename><surname>Zou</surname></persName>
+			<idno type="ORCID">0000-0001-5146-599X</idno>
+		</author>
+		<idno type="DOI">10.3390/agronomy12020365</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_m9gZWKN">Agronomy</title>
+		<title level="j" type="abbrev">Agronomy</title>
+		<idno type="ISSNe">2073-4395</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">365</biblScope>
+			<date type="published" when="2022-01-31">2022</date>
+			<publisher>MDPI AG</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, Z.; Wu, R.; Lin, Y.; Li, C.; Chen, S.; Yuan, Z.; Chen, S.; Zou, X. Plant Disease Recognition Model Based on Improved YOLOv5. Agronomy 2022, 12, 365. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="15,39.08,766.63,520.20,8.63;15,57.23,778.02,348.81,8.74" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" xml:id="_q6cpnUd">Rice leaf diseases prediction using deep neural networks with transfer learning</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Krishnamoorthy</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><forename type="middle">N</forename><surname>Prasad</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">P</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Subedi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">B</forename><surname>Abraha</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">V</forename><forename type="middle">E</forename><surname>Sathishkumar</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.envres.2021.111275</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_5Dq7GnF">Environ. Res</title>
+		<imprint>
+			<biblScope unit="volume">198</biblScope>
+			<biblScope unit="page">111275</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Krishnamoorthy, N.; Prasad, L.N.; Kumar, C.P.; Subedi, B.; Abraha, H.B.; Sathishkumar, V.E. Rice leaf diseases prediction using deep neural networks with transfer learning. Environ. Res. 2021, 198, 111275. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,39.08,98.72,520.19,8.63;16,57.23,110.12,269.29,8.74" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" xml:id="_Vm27U4P">Using Deep Learning to Detect Defects in Manufacturing: A Comprehensive Survey and Current Challenges</title>
+		<author>
+			<persName><forename type="first">Jing</forename><surname>Yang</surname></persName>
+			<idno type="ORCID">0000-0003-1915-9487</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Shaobo</forename><surname>Li</surname></persName>
+			<idno type="ORCID">0000-0003-4759-6000</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Zheng</forename><surname>Wang</surname></persName>
+			<idno type="ORCID">0000-0001-5956-6250</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Hao</forename><surname>Dong</surname></persName>
+			<idno type="ORCID">0000-0002-5101-7430</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jun</forename><surname>Wang</surname></persName>
+			<idno type="ORCID">0000-0003-3209-1149</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Shihao</forename><surname>Tang</surname></persName>
+			<idno type="ORCID">0000-0002-4360-6438</idno>
+		</author>
+		<idno type="DOI">10.3390/ma13245755</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_tQWQpCp">Materials</title>
+		<title level="j" type="abbrev">Materials</title>
+		<idno type="ISSNe">1996-1944</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page">5755</biblScope>
+			<date type="published" when="2020-12-16">2020</date>
+			<publisher>MDPI AG</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yang, J.; Li, S.; Wang, Z.; Dong, H.; Wang, J.; Tang, S. Using Deep Learning to Detect Defects in Manufacturing: A Comprehensive Survey and Current Challenges. Materials 2020, 13, 5755. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,39.08,121.74,521.32,8.63;16,57.23,133.13,503.16,8.74;16,56.78,144.64,121.27,8.74" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" xml:id="_ADtQg3T">Deep Learning Reveals Cancer Metastasis and Therapeutic Antibody Targeting in the Entire Body</title>
+		<author>
+			<persName><forename type="first">Chenchen</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oliver</forename><surname>Schoppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arnaldo</forename><surname>Parra-Damas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ruiyao</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mihail</forename><forename type="middle">Ivilinov</forename><surname>Todorov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gabor</forename><surname>Gondi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bettina</forename><surname>Von Neubeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nuray</forename><surname>Böğürcü-Seidel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sascha</forename><surname>Seidel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Katia</forename><surname>Sleiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Veltkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Benjamin</forename><surname>Förstera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hongcheng</forename><surname>Mai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhouyi</forename><surname>Rong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Omelyan</forename><surname>Trompak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alireza</forename><surname>Ghasemigharagoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Madita</forename><forename type="middle">Alice</forename><surname>Reimer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Angel</forename><forename type="middle">M</forename><surname>Cuesta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Javier</forename><surname>Coronel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Irmela</forename><surname>Jeremias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dieter</forename><surname>Saur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Amparo</forename><surname>Acker-Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Till</forename><surname>Acker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Boyan</forename><forename type="middle">K</forename><surname>Garvalov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bjoern</forename><surname>Menze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Reinhard</forename><surname>Zeidler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ali</forename><surname>Ertürk</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2019.11.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_xuvjsTX">Cell</title>
+		<title level="j" type="abbrev">Cell</title>
+		<idno type="ISSN">0092-8674</idno>
+		<imprint>
+			<biblScope unit="volume">179</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1661" to="1676.e19" />
+			<date type="published" when="2019-12">2019</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pan, C.; Schoppe, O.; Parra-Damas, A.; Cai, R.; Todorov, M.I.; Gondi, G.; von Neubeck, B.; Bö gürcü-Seidel, N.; Seidel, S.; Sleiman, K.; et al. Deep Learning Reveals Cancer Metastasis and Therapeutic Antibody Targeting in the Entire Body. Cell 2019, 179, 1661-1676.e19. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,156.26,516.26,8.63;16,56.95,167.65,391.08,8.74" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" xml:id="_cQ34PQH">Deep Learning Predicts Lung Cancer Treatment Response from Serial Medical Imaging</title>
+		<author>
+			<persName><forename type="first">Yiwen</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ahmed</forename><surname>Hosny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roman</forename><surname>Zeleznik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chintan</forename><surname>Parmar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thibaud</forename><surname>Coroller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Idalid</forename><surname>Franco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Raymond</forename><forename type="middle">H</forename><surname>Mak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hugo</forename><forename type="middle">J W L</forename><surname>Aerts</surname></persName>
+		</author>
+		<idno type="DOI">10.1158/1078-0432.ccr-18-2495</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_rsTMm9J">Clinical Cancer Research</title>
+		<idno type="ISSN">1078-0432</idno>
+		<idno type="ISSNe">1557-3265</idno>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="3266" to="3275" />
+			<date type="published" when="2019-06-01">2019</date>
+			<publisher>American Association for Cancer Research (AACR)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xu, Y.; Hosny, A.; Zeleznik, R.; Parmar, C.; Coroller, T.; Franco, I.; Mak, R.H.; Aerts, H.J. Deep Learning Predicts Lung Cancer Treatment Response from Serial Medical Imaging. Clin. Cancer Res. 2019, 25, 3266-3275. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,179.27,517.65,8.63;16,56.95,190.66,155.95,8.74" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" xml:id="_tRU5BX8">Towards the automation of early-stage human embryo development detection</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Vidas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">T</forename><surname>Agne</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Kristina</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Domas</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12938-019-0738-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_6ApVpQf">Biomed. Eng</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1" to="21" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vidas, R.; Agne, P.T.; Kristina, S.; Domas, J. Towards the automation of early-stage human embryo development detection. Biomed. Eng. 2019, 18, 1-21. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,202.29,516.08,8.63;16,57.23,213.68,212.84,8.74" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" xml:id="_5D8JX5G">3D Sensor Based Pedestrian Detection by Integrating Improved HHA Encoding and Two-Branch Feature Fusion</title>
+		<author>
+			<persName><forename type="first">Fang</forename><surname>Tan</surname></persName>
+			<idno type="ORCID">0000-0001-7962-3726</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Zhaoqiang</forename><surname>Xia</surname></persName>
+			<idno type="ORCID">0000-0003-0630-3339</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Yupeng</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaoyi</forename><surname>Feng</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/rs14030645</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ckD9u3r">Remote Sensing</title>
+		<title level="j" type="abbrev">Remote Sensing</title>
+		<idno type="ISSNe">2072-4292</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">645</biblScope>
+			<date type="published" when="2022-01-29">2022</date>
+			<publisher>MDPI AG</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tan, F.; Xia, Z.; Ma, Y.; Feng, X. 3D Sensor Based Pedestrian Detection by Integrating Improved HHA Encoding and Two-Branch Feature Fusion. Remote Sens. 2022, 14, 645. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,225.30,516.09,8.63;16,57.23,236.69,289.17,8.74" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" xml:id="_WTFsSKb">Research on key technologies of intelligent transportation based on image recognition and anti-fatigue driving</title>
+		<author>
+			<persName><forename type="first">Jun</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaoping</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qiang</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhou</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13640-018-0403-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_QxFFwvK">EURASIP Journal on Image and Video Processing</title>
+		<title level="j" type="abbrev">J Image Video Proc.</title>
+		<idno type="ISSNe">1687-5281</idno>
+		<imprint>
+			<biblScope unit="volume">2019</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">33</biblScope>
+			<date type="published" when="2019-02-04">2019</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, J.; Yu, X.; Liu, Q.; Yang, Z. Research on key technologies of intelligent transportation based on image recognition and anti-fatigue driving. EURASIP J. Image Video Process. 2019, 33. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,248.20,516.09,8.74;16,57.23,259.71,503.62,8.74;16,57.23,271.33,41.48,8.63" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" xml:id="_uRJMaRh">Robot-Aided Cloth Classification Using Depth Information and CNNs</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Gabas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Corona</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Alenya</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Torras</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-41778-3-2</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_GrmXASH">Articulated Motion and Deformable</title>
+		<editor>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Perales</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Kittler</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cham, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="16" to="23" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gabas, A.; Corona, E.; Alenya, G.; Torras, C. Robot-Aided Cloth Classification Using Depth Information and CNNs. In Articulated Motion and Deformable; Perales, F.J., Kittler, J., Eds.; Springer International Publishing: Cham, Switzerland, 2016; pp. 16-23. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,282.72,516.09,8.74;16,57.23,294.34,285.01,8.63" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" xml:id="_zaEqNW9">Introduction to automation in garment manufacturing</title>
+		<author>
+			<persName><forename type="first">Rajkishore</forename><surname>Nayak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rajiv</forename><surname>Padhye</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/b978-0-08-101211-6.00001-x</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_u6HcAnE">Automation in Garment Manufacturing</title>
+		<meeting><address><addrLine>Boca Raton, FL, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="1" to="27" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nayak, R.; Padhye, R. 1-Introduction to Automation in Garment Manufacturing; Automation in Garment Manufacturing; Woodhead Publishing: Boca Raton, FL, USA, 2018; pp. 1-27. ID: 317722. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,305.85,517.20,8.63;16,56.96,317.36,503.31,8.63;16,57.23,328.86,243.45,8.63" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" xml:id="_t9Pfsac">https://ijarcce.com/wp-content/uploads/2019/09/IJARCCE.2019.8901.pdf</title>
+		<author>
+			<persName><forename type="first">Loubna</forename><surname>El Azizi</surname></persName>
+		</author>
+		<idno type="DOI">10.17148/ijarcce.2019.8903</idno>
+		<ptr target="https://new.robocoast.eu/wp-content/uploads/2020/09/Feasibility-study-Automatic-garment-measurement_Aarila-Dots.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_a5F6efq">IJARCCE</title>
+		<title level="j" type="abbrev">International Journal of Advanced Research in Computer and Communication Engineering</title>
+		<idno type="ISSN">2319-5940</idno>
+		<idno type="ISSNe">2278-1021</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="16" to="21" />
+			<date type="published" when="2019-02-05">2019. 5 February 2022</date>
+			<publisher>Tejass Publishers</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A Report: Study of the Automatic Garment Measurement, Robocoast, Leverage from EU 2014-2020, Aarila-Dots Oy. 2019; pp. 1-13. Available online: https://new.robocoast.eu/wp-content/uploads/2020/09/Feasibility-study-Automatic-garment- measurement_Aarila-Dots.pdf (accessed on 5 February 2022).</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,340.25,516.09,8.74;16,56.91,351.76,153.67,8.74" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" xml:id="_MBPJPcj">Clothing Attribute Recognition Based on RCNN Framework Using L-Softmax Loss</title>
+		<author>
+			<persName><forename type="first">Jun</forename><surname>Xiang</surname></persName>
+			<idno type="ORCID">0000-0001-5177-0812</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Tiantian</forename><surname>Dong</surname></persName>
+			<idno type="ORCID">0000-0003-3971-2120</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Ruru</forename><surname>Pan</surname></persName>
+			<idno type="ORCID">0000-0002-2378-2266</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Weidong</forename><surname>Gao</surname></persName>
+			<idno type="ORCID">0000-0002-6230-9527</idno>
+		</author>
+		<idno type="DOI">10.1109/access.2020.2979164</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_gpcxwGV">IEEE Access</title>
+		<title level="j" type="abbrev">IEEE Access</title>
+		<idno type="ISSNe">2169-3536</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="48299" to="48313" />
+			<date type="published" when="2020">2020</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xiang, J.; Dong, T.; Pan, R.; Gao, W. Clothing Attribute Recognition Based on RCNN Framework Using L-Softmax Loss. IEEE Access 2020, 8, 48299-48313. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,363.38,517.66,8.63;16,57.23,374.77,201.75,8.74" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" xml:id="_Q5YzR3R">Superpixels Features Extractor Network (SP-FEN) for Clothing Parsing Enhancement</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">Mustafa</forename><surname>Ihsan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chu</forename><forename type="middle">Kiong</forename><surname>Loo</surname></persName>
+			<idno type="ORCID">0000-0001-7867-2665</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Sinan</forename><forename type="middle">A</forename><surname>Naji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manjeevan</forename><surname>Seera</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11063-019-10173-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_gw69snB">Neural Processing Letters</title>
+		<title level="j" type="abbrev">Neural Process Lett</title>
+		<idno type="ISSN">1370-4621</idno>
+		<idno type="ISSNe">1573-773X</idno>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="2245" to="2263" />
+			<date type="published" when="2020-01-18">2020</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ihsan, A.M.; Loo, C.K.; Naji, S.A.; Seera, M. Superpixels Features Extractor Network (SP-FEN) for Clothing Parsing Enhancement. Neural Process. Lett. 2020, 51, 2245-2263. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,386.40,516.09,8.63;16,56.95,397.79,503.44,8.74;16,57.23,409.41,174.80,8.63" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" xml:id="_qgx3BBg">Automatic Measurement of Garment Sizes Using Image Recognition</title>
+		<author>
+			<persName><forename type="first">Chunxiao</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ying</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yi</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Huimin</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Meiling</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dongliang</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3121360.3121382</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Bv8zqs2">Proceedings of the 1st International Conference on Graphics and Signal Processing</title>
+		<meeting>the 1st International Conference on Graphics and Signal Processing<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2017-06-24">2017</date>
+			<biblScope unit="page" from="30" to="34" />
+		</imprint>
+	</monogr>
+	<note>ICGSP &apos;17</note>
+	<note type="raw_reference">Li, C.; Xu, Y.; Xiao, Y.; Liu, H.; Feng, M.; Zhang, D. Automatic Measurement of Garment Sizes Using Image Recognition. In Proceedings of the International Conference on Graphics and Signal Processing; Association for Computing Machinery: New York, NY, USA, 2017; ICGSP &apos;17; pp. 30-34. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,420.92,517.72,8.63;16,57.23,432.42,465.55,8.63" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" xml:id="_6dKRm8f">Stitch Fix: AI-Assisted Clothing Stylists</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Brian</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Tj</surname></persName>
+		</author>
+		<idno type="DOI">10.7551/mitpress/14453.003.0007</idno>
+		<ptr target="https://multithreaded.stitchfix.com/blog/2016/09/30/photo-based-clothing-measurement/" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_4yCh9Pc">Working with AI</title>
+		<imprint>
+			<publisher>The MIT Press</publisher>
+			<date type="published" when="2022-02-10">10 February 2022</date>
+			<biblScope unit="page" from="15" to="20" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brian, C.; Tj, T. Photo Based Clothing Measurements|Stitch Fix Technology-Multithreaded. Available online: https:// multithreaded.stitchfix.com/blog/2016/09/30/photo-based-clothing-measurement/ (accessed on 10 February 2022).</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,443.93,516.09,8.63;16,57.23,455.44,503.17,8.63;16,56.91,466.94,122.04,8.63" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" xml:id="_MPBcukx">Automatic measurement of garment dimensions using machine vision</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Jiang</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICCASM.2010.5623093</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_cCWsTWY">Proceedings of the 2010 International Conference on Computer Application and System Modeling (ICCASM 2010)</title>
+		<meeting>the 2010 International Conference on Computer Application and System Modeling (ICCASM 2010)<address><addrLine>Taiyuan, China</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010-10-24">22-24 October 2010</date>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="9" to="33" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cao, L.; Jiang, Y.; Jiang, M. Automatic measurement of garment dimensions using machine vision. In Proceedings of the 2010 International Conference on Computer Application and System Modeling (ICCASM 2010), Taiyuan, China, 22-24 October 2010; Volume 9, pp. 9-33. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,478.45,491.82,8.63" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" xml:id="_QGDjAJE">Assessment of Quality of Commercially Available Some Selected Edible Oils Accessed in Ethiopia</title>
+		<idno type="DOI">10.33140/aidt.06.02.01</idno>
+		<ptr target="https://www.thetailoredco.com/" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_bGrNJG2">Archives of Infectious Diseases &amp; Therapy</title>
+		<title level="j" type="abbrev">AIDT</title>
+		<idno type="ISSNe">2577-8455</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2022-03-04">2022. 4 March 2022</date>
+			<publisher>Opast Group LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tailored-Garment Measuring App, 2022. Available online: https://www.thetailoredco.com/ (accessed on 4 March 2022).</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,489.96,516.09,8.63;16,57.23,501.35,304.35,8.74" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" xml:id="_Q8nBdZm">High-Resolution Encoder–Decoder Networks for Low-Contrast Medical Image Segmentation</title>
+		<author>
+			<persName><forename type="first">Sihang</forename><surname>Zhou</surname></persName>
+			<idno type="ORCID">0000-0003-1491-4594</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Dong</forename><surname>Nie</surname></persName>
+			<idno type="ORCID">0000-0003-0385-8988</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Ehsan</forename><surname>Adeli</surname></persName>
+			<idno type="ORCID">0000-0002-0579-7763</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jianping</forename><surname>Yin</surname></persName>
+			<idno type="ORCID">0000-0002-5474-4764</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jun</forename><surname>Lian</surname></persName>
+			<idno type="ORCID">0000-0002-2041-9074</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Dinggang</forename><surname>Shen</surname></persName>
+			<idno type="ORCID">0000-0002-7934-5698</idno>
+		</author>
+		<idno type="DOI">10.1109/tip.2019.2919937</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_yctcPJQ">IEEE Transactions on Image Processing</title>
+		<title level="j" type="abbrev">IEEE Trans. on Image Process.</title>
+		<idno type="ISSN">1057-7149</idno>
+		<idno type="ISSNe">1941-0042</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="461" to="475" />
+			<date type="published" when="2020">2020</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhou, S.; Nie, D.; Adeli, E.; Yin, J.; Lian, J.; Shen, D. High-Resolution Encoder-Decoder Networks for Low-Contrast Medical Image Segmentation. IEEE Trans. Image Process. 2020, 29, 461-475. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,512.97,516.09,8.63;16,57.23,524.36,426.09,8.74" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" xml:id="_2uN76K7">Influence of Image Quality and Light Consistency on the Performance of Convolutional Neural Networks for Weed Mapping</title>
+		<author>
+			<persName><forename type="first">Chengsong</forename><surname>Hu</surname></persName>
+			<idno type="ORCID">0000-0003-4220-8566</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Bishwa</forename><forename type="middle">B</forename><surname>Sapkota</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">Alex</forename><surname>Thomasson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Muthukumar</forename><forename type="middle">V</forename><surname>Bagavathiannan</surname></persName>
+			<idno type="ORCID">0000-0002-1107-7148</idno>
+		</author>
+		<idno type="DOI">10.3390/rs13112140</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_rE3TvJq">Remote Sensing</title>
+		<title level="j" type="abbrev">Remote Sensing</title>
+		<idno type="ISSNe">2072-4292</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">2140</biblScope>
+			<date type="published" when="2021-05-29">2021</date>
+			<publisher>MDPI AG</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hu, C.; Sapkota, B.B.; Thomasson, J.A.; Bagavathiannan, M.V. Influence of Image Quality and Light Consistency on the Performance of Convolutional Neural Networks for Weed Mapping. Remote Sens. 2021, 13, 2140. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,535.99,516.09,8.63;16,57.23,547.38,264.61,8.74" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" xml:id="_Ap8tnN4">DeepFashion2: A Versatile Benchmark for Detection, Pose Estimation, Segmentation and Re-Identification of Clothing Images</title>
+		<author>
+			<persName><forename type="first">Yuying</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ruimao</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaogang</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaoou</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ping</forename><surname>Luo</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/cvpr.2019.00548</idno>
+		<idno type="arXiv">arXiv:1901.07973</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_CM23B6S">2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2019-06" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ge, Y.; Zhang, R.; Wu, L.; Wang, X.; Tang, X.; Luo, P. A Versatile Benchmark for Detection, Pose Estimation, Segmentation and Re-Identification of Clothing Images. arXiv 2019, arXiv:1901.07973.</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,559.00,517.65,8.63;16,56.88,570.51,373.56,8.63" xml:id="b25">
+	<monogr>
+		<title level="m" type="main" xml:id="_3WMdf9X">An Overview of Unet Architectures for Semantic Segmentation and Biomedical Image Segmentation</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Adaloglouon</surname></persName>
+		</author>
+		<ptr target="https://theaisummer.com/unet-architectures/" />
+		<imprint>
+			<date type="published" when="2021-01-09">2021. 9 January 2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adaloglouon, N. An Overview of Unet Architectures for Semantic Segmentation and Biomedical Image Segmentation. 2021. Available online: https://theaisummer.com/unet-architectures/ (accessed on 9 January 2022).</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,581.90,516.08,8.74;16,56.94,593.40,481.51,8.74" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" xml:id="_Cbnq78x">U-Net: Convolutional Networks for Biomedical Image Segmentation</title>
+		<author>
+			<persName><forename type="first">Olaf</forename><surname>Ronneberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Philipp</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Brox</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-24574-4_28</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_28Kx6Rv">Lecture Notes in Computer Science</title>
+		<meeting><address><addrLine>Cham, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="234" to="241" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ronneberger, O.; Fischer, P.; Brox, T. U-Net: Convolutional Networks for Biomedical Image Segmentation. In Medical Image Computing and Computer-Assisted Intervention-MICCAI 2015; Springer: Cham, Switzerland, 2015; pp. 234-241. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,604.91,517.21,8.74;16,56.94,616.42,131.21,8.74" xml:id="b27">
+	<analytic>
+		<title level="a" type="main" xml:id="_jVWTPXz">Mobile-Unet: An efficient convolutional neural network for fabric defect detection</title>
+		<author>
+			<persName><forename type="first">Junfeng</forename><surname>Jing</surname></persName>
+			<idno type="ORCID">0000-0001-6646-3698</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Zhen</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthias</forename><surname>Rätsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Huanhuan</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0040517520928604</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_H6TDfqc">Textile Research Journal</title>
+		<title level="j" type="abbrev">Textile Research Journal</title>
+		<idno type="ISSN">0040-5175</idno>
+		<idno type="ISSNe">1746-7748</idno>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="30" to="42" />
+			<date type="published" when="2020-05-29">2020</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jing, J.; Wang, Z.; Ratsch, M.; Zhang, H. Mobile-Unet: An efficient convolutional neural network for fabric defect detection. Text. Res. J. 2020, 92, 30-42. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,628.04,516.09,8.63;16,57.23,639.43,318.97,8.74" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" xml:id="_7hWpbNN">Deep learning based real-time Industrial framework for rotten and fresh fruit detection using semantic segmentation</title>
+		<author>
+			<persName><forename type="first">Kyamelia</forename><surname>Roy</surname></persName>
+			<idno type="ORCID">0000-0003-4845-9139</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Sheli</forename><forename type="middle">Sinha</forename><surname>Chaudhuri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sayan</forename><surname>Pramanik</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00542-020-05123-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_D47tyWR">Microsystem Technologies</title>
+		<title level="j" type="abbrev">Microsyst Technol</title>
+		<idno type="ISSN">0946-7076</idno>
+		<idno type="ISSNe">1432-1858</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="3365" to="3375" />
+			<date type="published" when="2021">2021</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roy, K.; Chaudhuri, S.S.; Pramanik, S. Deep learning based real-time Industrial framework for rotten and fresh fruit detection using semantic segmentation. Microsyst. Technol. 2021, 27, 3365-3375. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,650.94,516.09,8.74;16,57.23,662.45,142.55,8.74" xml:id="b29">
+	<analytic>
+		<title level="a" type="main" xml:id="_UDtYqCS">Defect Detection of Subway Tunnels Using Advanced U-Net Network</title>
+		<author>
+			<persName><forename type="first">An</forename><surname>Wang</surname></persName>
+			<idno type="ORCID">0000-0002-8375-1533</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Ren</forename><surname>Togo</surname></persName>
+			<idno type="ORCID">0000-0002-4474-3995</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Takahiro</forename><surname>Ogawa</surname></persName>
+			<idno type="ORCID">0000-0001-5332-8112</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Miki</forename><surname>Haseyama</surname></persName>
+			<idno type="ORCID">0000-0003-1496-1761</idno>
+		</author>
+		<idno type="DOI">10.3390/s22062330</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_JbNyGpv">Sensors</title>
+		<title level="j" type="abbrev">Sensors</title>
+		<idno type="ISSNe">1424-8220</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">2330</biblScope>
+			<date type="published" when="2022-03-17">2022</date>
+			<publisher>MDPI AG</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, A.; Togo, R.; Ogawa, T.; Haseyama, M. Defect Detection of Subway Tunnels Using Advanced U-Net Network. Sensors 2022, 22, 2330. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,673.95,517.66,8.74;16,57.23,685.58,41.48,8.63" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" xml:id="_jkg6yT2">Image segmentation evaluation: a survey of methods</title>
+		<author>
+			<persName><forename type="first">Zhaobin</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ying</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10462-020-09830-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mbCrEFz">Artificial Intelligence Review</title>
+		<title level="j" type="abbrev">Artif Intell Rev</title>
+		<idno type="ISSN">0269-2821</idno>
+		<idno type="ISSNe">1573-7462</idno>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="5637" to="5674" />
+			<date type="published" when="2020-04-18">2020</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, Z.; Wang, E.; Zhu, Y. Image segmentation evaluation: A survey of methods. Artif. Intell. Rev. 2020, 53, 5637-5674. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,696.97,516.09,8.74;16,57.23,708.47,133.58,8.74" xml:id="b31">
+	<analytic>
+		<title level="a" type="main" xml:id="_maF2tr2">Metrics for evaluating 3D medical image segmentation: analysis, selection, and tool</title>
+		<author>
+			<persName><forename type="first">Abdel</forename><forename type="middle">Aziz</forename><surname>Taha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Allan</forename><surname>Hanbury</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12880-015-0068-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_PvDBFnu">BMC Medical Imaging</title>
+		<title level="j" type="abbrev">BMC Med Imaging</title>
+		<idno type="ISSNe">1471-2342</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">29</biblScope>
+			<date type="published" when="2015-08-12">2015</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Taha, A.A.; Hanbury, A. Metrics for evaluating 3D medical image segmentation: Analysis, selection, and tool. BMC Med. Imaging 2015, 15, 29. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,720.10,516.09,8.63;16,56.88,731.49,405.35,8.74" xml:id="b32">
+	<analytic>
+		<title level="a" type="main" xml:id="_xsK2Nw5">Deep Learning in Neuroradiology: A Systematic Review of Current Algorithms and Approaches for the New Wave of Imaging Technology</title>
+		<author>
+			<persName><forename type="first">Anthony</forename><forename type="middle">D</forename><surname>Yao</surname></persName>
+			<idno type="ORCID">0000-0001-8846-2258</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Derrick</forename><forename type="middle">L</forename><surname>Cheng</surname></persName>
+			<idno type="ORCID">0000-0002-7605-3323</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Ian</forename><surname>Pan</surname></persName>
+			<idno type="ORCID">0000-0002-0650-6614</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Felipe</forename><surname>Kitamura</surname></persName>
+			<idno type="ORCID">0000-0002-9992-5630</idno>
+		</author>
+		<idno type="DOI">10.1148/ryai.2020190026</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_cvvEm9E">Radiology: Artificial Intelligence</title>
+		<title level="j" type="abbrev">Radiology: Artificial Intelligence</title>
+		<idno type="ISSNe">2638-6100</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">e190026</biblScope>
+			<date type="published" when="2020-03-01">2020</date>
+			<publisher>Radiological Society of North America (RSNA)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yao, A.D.; Cheng, D.L.; Pan, I.; Kitamura, F. Deep Learning in Neuroradiology: A Systematic Review of Current Algorithms and Approaches for the New Wave of Imaging Technology. Radiol. Artif. Intell. 2020, 2, e190026. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,742.99,405.43,8.74" xml:id="b33">
+	<analytic>
+		<title level="a" type="main" xml:id="_v9wGFah">On the Canny edge detector</title>
+		<author>
+			<persName><forename type="first">Lijun</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ardeshir</forename><surname>Goshtasby</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0031-3203(00)00023-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_CwPehPa">Pattern Recognition</title>
+		<title level="j" type="abbrev">Pattern Recognition</title>
+		<idno type="ISSN">0031-3203</idno>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="721" to="725" />
+			<date type="published" when="2001-03">2001</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ding, L.; Goshtasby, A. On the Canny edge detector. Pattern Recognit. 2001, 34, 721-725. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,754.62,516.79,8.63;16,57.23,766.12,279.06,8.63" xml:id="b34">
+	<analytic>
+		<title level="a" type="main" xml:id="_BA48WD7">A Descriptive Algorithm for Sobel Image Edge Detection</title>
+		<author>
+			<persName><forename type="first">Olufunke</forename><surname>Vincent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Olusegun</forename><surname>Folorunso</surname></persName>
+		</author>
+		<idno type="DOI">10.28945/3351</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_xX94T28">InSITE Conference</title>
+		<meeting><address><addrLine>Macon, GA, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Informing Science Institute</publisher>
+			<date type="published" when="2009-06">June 2009</date>
+			<biblScope unit="page" from="1" to="11" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vincent, O.R.; Folorunso, O. A Descriptive Algorithm for Sobel Image Edge Detection. In Proceedings of the Informing Science &amp; IT Education Conference, Macon, GA, USA, 12-15 June 2009; pp. 1-11.</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,777.51,454.94,8.74" xml:id="b35">
+	<analytic>
+		<title level="a" type="main" xml:id="_9ZTBbeN">K-Means Cluster Analysis for Image Segmentation</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">M A</forename><surname>Burney</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Tariq</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_5MkaGHU">Int. J. Comput. Appl</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burney, S.M.A.; Tariq, H. K-Means Cluster Analysis for Image Segmentation. Int. J. Comput. Appl. 2014, 96, 1-8.</note>
+</biblStruct>
+
+<biblStruct coords="17,43.19,98.72,516.09,8.63;17,57.23,110.12,290.09,8.74" xml:id="b36">
+	<analytic>
+		<title level="a" type="main" xml:id="_HpchDr6">Image Segmentation Using K -means Clustering Algorithm and Subtractive Clustering Algorithm</title>
+		<author>
+			<persName><forename type="first">Nameirakpam</forename><surname>Dhanachandra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Khumanthem</forename><surname>Manglem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yambem</forename><forename type="middle">Jina</forename><surname>Chanu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.procs.2015.06.090</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zenTeV6">Procedia Computer Science</title>
+		<title level="j" type="abbrev">Procedia Computer Science</title>
+		<idno type="ISSN">1877-0509</idno>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="764" to="771" />
+			<date type="published" when="2015">2015</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dhanachandra, N.; Manglem, K.; JinaChanu, Y. Image Segmentation Using K-means Clustering Algorithm and Subtractive Clustering Algorithm. Procedia Comput. Sci. 2015, 54, 764-771. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="17,43.19,121.62,516.08,8.74;17,56.95,133.13,132.22,8.74" xml:id="b37">
+	<analytic>
+		<title level="a" type="main" xml:id="_ZnCDcWV">Image segmentation based on adaptive K-means algorithm</title>
+		<author>
+			<persName><forename type="first">Xin</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qinyi</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Run</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yifei</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qian</forename><surname>Yin</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13640-018-0309-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_E4uypHR">EURASIP Journal on Image and Video Processing</title>
+		<title level="j" type="abbrev">J Image Video Proc.</title>
+		<idno type="ISSNe">1687-5281</idno>
+		<imprint>
+			<biblScope unit="volume">2018</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2018-08-03">2018</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zheng, X.; Lei, Q.; Yao, R.; Gong, Y.; Yin, Q. Image segmentation based on adaptive K-means algorithm. EURASIP J. Image Video Process. 2018, 68, 1-10. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="17,43.19,144.75,517.65,8.63;17,57.23,156.26,503.16,8.63;17,56.78,167.77,169.87,8.63" xml:id="b38">
+	<analytic>
+		<title level="a" type="main" xml:id="_XaDRAXS">MobileNetV2: Inverted Residuals and Linear Bottlenecks</title>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Sandler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Howard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Menglong</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrey</forename><surname>Zhmoginov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Liang-Chieh</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/cvpr.2018.00474</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_7wUCxyf">2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition</title>
+		<meeting><address><addrLine>Salt Lake City, UT, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2018-06">June 2018</date>
+			<biblScope unit="page" from="4510" to="4520" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sandler, M.; Howard, A.; Zhu, M.; Zhmoginov, A.; Chen, L.C. MobileNetV2: Inverted Residuals and Linear Bottlenecks. In Proceedings of the 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition, Salt Lake City, UT, USA, 18-23 June 2018; pp. 4510-4520. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="17,43.19,179.27,516.09,8.63;17,57.23,190.78,371.46,8.63" xml:id="b39">
+	<analytic>
+		<title level="a" type="main" xml:id="_q49pJ9k">Deep Residual Learning for Image Recognition</title>
+		<author>
+			<persName><forename type="first">Kaiming</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiangyu</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shaoqing</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jian</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/cvpr.2016.90</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_zTPXXPh">2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<meeting><address><addrLine>Las Vegas, NV, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2016-06">June 2016</date>
+			<biblScope unit="page" from="770" to="778" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">He, K.; Zhang, X.; Ren, S.; Sun, J. Deep Residual Learning for Image Recognition. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Las Vegas, NV, USA, 27-30 June 2016; pp. 770-778.</note>
+</biblStruct>
+
+<biblStruct coords="17,43.19,202.29,516.09,8.63;17,57.23,213.79,488.24,8.63" xml:id="b40">
+	<analytic>
+		<title level="a" type="main" xml:id="_H7JGhDv">DeepPose: Human Pose Estimation via Deep Neural Networks</title>
+		<author>
+			<persName><forename type="first">Alexander</forename><surname>Toshev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Szegedy</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/cvpr.2014.214</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_p6USrTm">2014 IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<meeting><address><addrLine>Columbus, OH, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2014-06">June 2014</date>
+			<biblScope unit="page" from="1653" to="1660" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Toshev, A.; Szegedy, C. DeepPose: Human Pose Estimation via Deep Neural Networks. In Proceedings of the 2014 IEEE Conference on Computer Vision and Pattern Recognition, Columbus, OH, USA, 23-28 June 2014; pp. 1653-1660. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="17,43.19,225.30,516.09,8.63;17,57.23,236.81,500.72,8.63" xml:id="b41">
+	<analytic>
+		<title level="a" type="main" xml:id="_V4Zs4NR">A survey of loss functions for semantic segmentation</title>
+		<author>
+			<persName coords=""><forename type="first">Shruti</forename><surname>Jadon</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/cibcb48159.2020.9277638</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_EJgGvEh">2020 IEEE Conference on Computational Intelligence in Bioinformatics and Computational Biology (CIBCB)</title>
+		<meeting><address><addrLine>Via del Mar, Chile</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2020-10-29">27-29 October 2020</date>
+			<biblScope unit="page" from="1" to="6" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jadon, S. A survey of loss functions for semantic segmentation. In Proceedings of the 2020 IEEE Conference on Computational Intelligence in Bioinformatics and Computational Biology (CIBCB), Via del Mar, Chile, 27-29 October 2020; pp. 1-6. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="17,43.19,248.20,516.09,8.74;17,56.91,259.71,133.20,8.74" xml:id="b42">
+	<analytic>
+		<title level="a" type="main" xml:id="_QPksspz">Loss odyssey in medical image segmentation</title>
+		<author>
+			<persName><forename type="first">Jun</forename><surname>Ma</surname></persName>
+			<idno type="ORCID">0000-0002-9739-0855</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jianan</forename><surname>Chen</surname></persName>
+			<idno type="ORCID">0000-0002-4607-3227</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Matthew</forename><surname>Ng</surname></persName>
+			<idno type="ORCID">0000-0001-8267-6167</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Rui</forename><surname>Huang</surname></persName>
+			<idno type="ORCID">0000-0001-7120-9256</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Yu</forename><surname>Li</surname></persName>
+			<idno type="ORCID">0000-0002-2068-488X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Chen</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaoping</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anne</forename><forename type="middle">L</forename><surname>Martel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.media.2021.102035</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_myqEM3t">Medical Image Analysis</title>
+		<title level="j" type="abbrev">Medical Image Analysis</title>
+		<idno type="ISSN">1361-8415</idno>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page">102035</biblScope>
+			<date type="published" when="2021-07">2021</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ma, J.; Chen, J.; Ng, M.; Huang, R.; Li, Y.; Li, C.; Yang, X.; Martel, A.L. Loss odyssey in medical image segmentation. Med. Image Anal. 2021, 71, 102035. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="17,43.19,271.21,517.21,8.74;17,57.23,282.72,102.91,8.74" xml:id="b43">
+	<analytic>
+		<title level="a" type="main" xml:id="_DcYnds9">KGDet: Keypoint-Guided Fashion Detection</title>
+		<author>
+			<persName><forename type="first">Shenhan</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dongze</forename><surname>Lian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Binqiang</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tong</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bohui</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hai</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shenghua</forename><surname>Gao</surname></persName>
+		</author>
+		<idno type="DOI">10.1609/aaai.v35i3.16346</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_BxEmZCB">Proceedings of the AAAI Conference on Artificial Intelligence</title>
+		<title level="j" type="abbrev">AAAI</title>
+		<idno type="ISSN">2159-5399</idno>
+		<idno type="ISSNe">2374-3468</idno>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="2449" to="2457" />
+			<date type="published" when="2021-05-18">2021</date>
+			<publisher>Association for the Advancement of Artificial Intelligence (AAAI)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Qian, S.; Lian, D.; Zhao, B.; Liu, T.; Zhu, B.; Li, H.; Gao, S. KGDet: Keypoint-Guided Fashion Detection. Proc. Aaai Conf. Artif. Intell. 2021, 35, 2449-2457.</note>
+</biblStruct>
+
+<biblStruct coords="17,43.19,294.34,517.20,8.63;17,56.15,305.85,375.10,8.63" xml:id="b44">
+	<monogr>
+		<title level="m" type="main" xml:id="_kkMsaDj">Automatically Measure Your Clothes on a Smartphone with AR</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<ptr target="https://engineering.mercari.com/en/blog/entry/2020-06-19-150222/" />
+		<imprint>
+			<date type="published" when="2022-01-05">2022. 5 January 2022</date>
+		</imprint>
+		<respStmt>
+			<orgName>Mercari Engineering</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Lu, Y. Automatically Measure Your Clothes on a Smartphone with AR, Mercari Engineering. 2022. Available online: https: //engineering.mercari.com/en/blog/entry/2020-06-19-150222/ (accessed on 5 January 2022).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
